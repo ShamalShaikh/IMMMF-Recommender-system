@@ -1,14 +1,14 @@
-function [Ynew] = newSamples(Y, YPred, XY, theta, l, alpha)
+function [Ynew] = newSamples(Y, YPred, XY, theta, l, alpha, f1)
 %NEWSAMPLES Summary of this function goes here
 %   Detailed explanation goes here
 [n,m] = size(Y);
 Ynew = zeros(n,m);
 S = (Y==0);     % boolean matrix of new predictions
 N = YPred .* S; % contains all new predictions
-conf = confi(N, XY, theta, l);
-BCF = (conf > alpha);
-R = sparse(BCF);
-
+[conf, noise] = confi(Y, YPred, N, XY, theta, l, 0.45, 0.1, f1); 
+% last two params confidence and noise distance from margins
+% BCF = (conf > alpha);
+R = sparse(conf);
 
 all = find(R); 
 non0size = length(all);

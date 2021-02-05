@@ -15,7 +15,7 @@ function [y] = m3fSoftmax(xy,theta)
     error('sizes of xy and theta don''t match');
   end
   y = ones(n,m);
-  for i=1:l1
+  for i=2:l1-1
     tmp = theta(:,i)*ones(1,m);
     tmp = xy >= tmp;
     y = y + tmp;

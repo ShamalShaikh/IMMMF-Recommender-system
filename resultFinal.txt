@@ -38,12 +38,17 @@ Size of Y = 100775------------------------
 Size of Y = 101071------------------------
 
 
+MMMF-CG Training Error:     ZOE = 0.1796		MAE = 0.1969		RMSE = 0.4747
+MMMF-CG Testing Error:		ZOE = 0.5703		MAE = 0.6986		RMSE = 0.9943
 
-MMMF-CG Training Error:     ZOE = 0.4500		MAE = 0.5105		RMSE = 0.7993
-MMMF-CG Testing Error:		ZOE = 0.5694		MAE = 0.7231		RMSE = 1.0423
+MMMF-CG Training Error:     ZOE = 0.2195		MAE = 0.2402		RMSE = 0.5295
+MMMF-CG Testing Error:		ZOE = 0.5682		MAE = 0.6971		RMSE = 0.9962
 
-MMMF-CG Training Error:     ZOE = 0.4467		MAE = 0.5056		RMSE = 0.7946
-MMMF-CG Testing Error:		ZOE = 0.5695		MAE = 0.7226		RMSE = 1.0412
+MMMF-CG Training Error:     ZOE = 0.2856		MAE = 0.3101		RMSE = 0.6017
+MMMF-CG Testing Error:		ZOE = 0.5613		MAE = 0.6907		RMSE = 0.9952
 
-MMMF-CG Training Error:     ZOE = 0.4625		MAE = 0.5067		RMSE = 0.7747
-MMMF-CG Testing Error:		ZOE = 0.5939		MAE = 0.7331		RMSE = 1.0238
+MMMF-CG Training Error:     ZOE = 0.2866		MAE = 0.3117		RMSE = 0.6041
+MMMF-CG Testing Error:		ZOE = 0.5596		MAE = 0.6928		RMSE = 1.0011
+
+MMMF-CG Training Error:     ZOE = 0.2868		MAE = 0.3112		RMSE = 0.6025
+MMMF-CG Testing Error:		ZOE = 0.5653		MAE = 0.6952		RMSE = 0.9989

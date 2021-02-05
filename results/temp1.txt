@@ -1,0 +1,219 @@
+Iter: = 10 	 Obj: = 129236.9892 
+Iter: = 20 	 Obj: = 66053.8486 
+--Iter: = 23 	 Eta: = 0.0050 
+Iter: = 30 	 Obj: = 58816.6935 
+Iter: = 40 	 Obj: = 57960.6258 
+Iter: = 50 	 Obj: = 57561.0013 
+Iter: = 60 	 Obj: = 57317.8616 
+
+Run No : 1
+MMMF-CG Training Error:     ZOE = 0.3299		MAE = 0.3561		RMSE = 0.6412
+MMMF-CG Testing Error:		ZOE = 0.5615		MAE = 0.6877		RMSE = 0.9891
+Rating 1 : 241 / 11887 -- 2.0274
+Left : 0	Right : 11646
+Rating 2 : 1350 / 53993 -- 2.5003
+Rating 3 : 24287 / 607035 -- 4.0009
+Rating 4 : 38268 / 767388 -- 4.9868
+Rating 5 : 19563 / 75823 -- 25.8009
+Left : 56258	Right : 2
+
+Size of Y = 78371------------------------
+
+--Iter: = 3 	 Eta: = 0.0050 
+Iter: = 10 	 Obj: = 58411.1694 
+Iter: = 20 	 Obj: = 58323.2270 
+--Iter: = 29 	 Eta: = 0.0025 
+Iter: = 30 	 Obj: = 58252.6238 
+Iter: = 40 	 Obj: = 58227.4564 
+Iter: = 50 	 Obj: = 58206.0027 
+Iter: = 60 	 Obj: = 58187.2665 
+
+Run No : 2
+MMMF-CG Training Error:     ZOE = 0.2995		MAE = 0.3252		RMSE = 0.6163
+MMMF-CG Testing Error:		ZOE = 0.5644		MAE = 0.6912		RMSE = 0.9914
+Rating 1 : 356 / 11326 -- 3.1432
+Left : 0	Right : 10970
+Rating 2 : 2217 / 53947 -- 4.1096
+Rating 3 : 31863 / 610742 -- 5.2171
+Rating 4 : 55469 / 755703 -- 7.3401
+Rating 5 : 23476 / 76037 -- 30.8744
+Left : 52555	Right : 6
+
+Size of Y = 89710------------------------
+
+--Iter: = 5 	 Eta: = 0.0050 
+Iter: = 10 	 Obj: = 59128.4742 
+--Iter: = 18 	 Eta: = 0.0025 
+Iter: = 20 	 Obj: = 59101.8066 
+Iter: = 30 	 Obj: = 59090.9731 
+Iter: = 40 	 Obj: = 59081.4527 
+Iter: = 50 	 Obj: = 59072.9531 
+Iter: = 60 	 Obj: = 59065.3034 
+
+Run No : 3
+MMMF-CG Training Error:     ZOE = 0.2674		MAE = 0.2918		RMSE = 0.5865
+MMMF-CG Testing Error:		ZOE = 0.5658		MAE = 0.6934		RMSE = 0.9931
+Rating 1 : 438 / 11003 -- 3.9807
+Left : 0	Right : 10565
+Rating 2 : 2395 / 53265 -- 4.4964
+Rating 3 : 35269 / 611791 -- 5.7649
+Rating 4 : 62048 / 746980 -- 8.3065
+Rating 5 : 23742 / 73377 -- 32.3562
+Left : 49629	Right : 6
+
+Size of Y = 102100------------------------
+
+--Iter: = 4 	 Eta: = 0.0050 
+Iter: = 10 	 Obj: = 59788.2668 
+--Iter: = 20 	 Eta: = 0.0025 
+Iter: = 20 	 Obj: = 59778.9461 
+Iter: = 30 	 Obj: = 59768.3966 
+Iter: = 40 	 Obj: = 59763.7122 
+Iter: = 50 	 Obj: = 59759.4876 
+Iter: = 60 	 Obj: = 59755.6408 
+
+Run No : 4
+MMMF-CG Training Error:     ZOE = 0.2384		MAE = 0.2613		RMSE = 0.5571
+MMMF-CG Testing Error:		ZOE = 0.5669		MAE = 0.6953		RMSE = 0.9947
+Rating 1 : 603 / 10679 -- 5.6466
+Left : 0	Right : 10076
+Rating 2 : 2326 / 51275 -- 4.5363
+Rating 3 : 35525 / 611966 -- 5.8051
+Rating 4 : 63708 / 739344 -- 8.6168
+Rating 5 : 23254 / 70762 -- 32.8623
+Left : 47502	Right : 6
+
+Size of Y = 114642------------------------
+
+--Iter: = 4 	 Eta: = 0.0050 
+Iter: = 10 	 Obj: = 60338.3525 
+--Iter: = 18 	 Eta: = 0.0025 
+Iter: = 20 	 Obj: = 60330.1556 
+Iter: = 30 	 Obj: = 60326.9985 
+Iter: = 40 	 Obj: = 60324.1961 
+Iter: = 50 	 Obj: = 60321.6560 
+Iter: = 60 	 Obj: = 60319.3260 
+
+Run No : 5
+MMMF-CG Training Error:     ZOE = 0.2149		MAE = 0.2360		RMSE = 0.5305
+MMMF-CG Testing Error:		ZOE = 0.5684		MAE = 0.6978		RMSE = 0.9971
+Rating 1 : 897 / 10604 -- 8.4591
+Left : 0	Right : 9707
+Rating 2 : 2237 / 50504 -- 4.4294
+Rating 3 : 34228 / 610816 -- 5.6037
+Rating 4 : 63300 / 731972 -- 8.6479
+Rating 5 : 24287 / 67588 -- 35.9339
+Left : 43295	Right : 6
+
+Size of Y = 127137------------------------
+
+--Iter: = 3 	 Eta: = 0.0050 
+Iter: = 10 	 Obj: = 60806.6924 
+--Iter: = 18 	 Eta: = 0.0025 
+Iter: = 20 	 Obj: = 60800.8017 
+Iter: = 30 	 Obj: = 60798.5730 
+Iter: = 40 	 Obj: = 60796.6166 
+Iter: = 50 	 Obj: = 60794.8492 
+Iter: = 60 	 Obj: = 60793.2286 
+
+Run No : 6
+MMMF-CG Training Error:     ZOE = 0.1953		MAE = 0.2149		RMSE = 0.5070
+MMMF-CG Testing Error:		ZOE = 0.5694		MAE = 0.6990		RMSE = 0.9978
+Rating 1 : 1231 / 10310 -- 11.9399
+Left : 0	Right : 9079
+Rating 2 : 2144 / 49659 -- 4.3174
+Rating 3 : 32442 / 610585 -- 5.3133
+Rating 4 : 61667 / 723679 -- 8.5213
+Rating 5 : 25239 / 64756 -- 38.9755
+Left : 39511	Right : 6
+
+Size of Y = 139410------------------------
+
+--Iter: = 3 	 Eta: = 0.0050 
+Iter: = 10 	 Obj: = 61206.6608 
+--Iter: = 15 	 Eta: = 0.0025 
+Iter: = 20 	 Obj: = 61202.4431 
+Iter: = 30 	 Obj: = 61200.8051 
+Iter: = 40 	 Obj: = 61199.3921 
+Iter: = 50 	 Obj: = 61198.1242 
+Iter: = 60 	 Obj: = 61196.9629 
+
+Run No : 7
+MMMF-CG Training Error:     ZOE = 0.1797		MAE = 0.1979		RMSE = 0.4871
+MMMF-CG Testing Error:		ZOE = 0.5705		MAE = 0.7003		RMSE = 0.9984
+Rating 1 : 1835 / 10215 -- 17.9638
+Left : 0	Right : 8380
+Rating 2 : 2042 / 48524 -- 4.2082
+Rating 3 : 30613 / 609178 -- 5.0253
+Rating 4 : 59045 / 716959 -- 8.2355
+Rating 5 : 24376 / 61840 -- 39.4179
+Left : 37459	Right : 5
+
+Size of Y = 151202------------------------
+
+--Iter: = 3 	 Eta: = 0.0050 
+Iter: = 10 	 Obj: = 61578.8014 
+--Iter: = 15 	 Eta: = 0.0025 
+Iter: = 20 	 Obj: = 61574.0733 
+Iter: = 30 	 Obj: = 61572.7614 
+Iter: = 40 	 Obj: = 61571.6393 
+Iter: = 50 	 Obj: = 61570.6378 
+Iter: = 60 	 Obj: = 61569.7229 
+
+Run No : 8
+MMMF-CG Training Error:     ZOE = 0.1668		MAE = 0.1840		RMSE = 0.4705
+MMMF-CG Testing Error:		ZOE = 0.5713		MAE = 0.7012		RMSE = 0.9992
+Rating 1 : 2462 / 9805 -- 25.1096
+Left : 0	Right : 7343
+Rating 2 : 1928 / 48145 -- 4.0046
+Rating 3 : 29110 / 608384 -- 4.7848
+Rating 4 : 55908 / 709697 -- 7.8777
+Rating 5 : 23298 / 58893 -- 39.5599
+Left : 35590	Right : 5
+
+Size of Y = 162473------------------------
+
+--Iter: = 3 	 Eta: = 0.0050 
+Iter: = 10 	 Obj: = 61887.4473 
+--Iter: = 16 	 Eta: = 0.0025 
+Iter: = 20 	 Obj: = 61881.1512 
+Iter: = 30 	 Obj: = 61880.1396 
+Iter: = 40 	 Obj: = 61879.2727 
+Iter: = 50 	 Obj: = 61878.4974 
+Iter: = 60 	 Obj: = 61877.7877 
+
+Run No : 9
+MMMF-CG Training Error:     ZOE = 0.1558		MAE = 0.1721		RMSE = 0.4556
+MMMF-CG Testing Error:		ZOE = 0.5715		MAE = 0.7018		RMSE = 0.9999
+Rating 1 : 2851 / 9647 -- 29.5532
+Left : 0	Right : 6796
+Rating 2 : 1817 / 46995 -- 3.8664
+Rating 3 : 27702 / 606965 -- 4.5640
+Rating 4 : 53035 / 703848 -- 7.5350
+Rating 5 : 21301 / 56198 -- 37.9035
+Left : 34891	Right : 6
+
+Size of Y = 173144------------------------
+
+--Iter: = 3 	 Eta: = 0.0050 
+--Iter: = 8 	 Eta: = 0.0025 
+Iter: = 10 	 Obj: = 62170.0353 
+Iter: = 20 	 Obj: = 62168.5207 
+Iter: = 30 	 Obj: = 62167.4890 
+Iter: = 40 	 Obj: = 62166.6702 
+Iter: = 50 	 Obj: = 62165.9694 
+Iter: = 60 	 Obj: = 62165.3444 
+
+Run No : 10
+MMMF-CG Training Error:     ZOE = 0.1469		MAE = 0.1624		RMSE = 0.4429
+MMMF-CG Testing Error:		ZOE = 0.5720		MAE = 0.7030		RMSE = 1.0012
+Rating 1 : 3336 / 9476 -- 35.2047
+Left : 0	Right : 6140
+Rating 2 : 1662 / 46792 -- 3.5519
+Rating 3 : 25929 / 604238 -- 4.2912
+Rating 4 : 49807 / 698485 -- 7.1307
+Rating 5 : 19428 / 53991 -- 35.9838
+Left : 34556	Right : 7
+
+Size of Y = 183161------------------------
+
