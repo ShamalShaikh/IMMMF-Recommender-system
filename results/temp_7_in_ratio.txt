@@ -1,0 +1,136 @@
+
+Run No : 1
+1 -> MAE = 1.7012		RMSE = 1.9908
+2 -> MAE = 1.1964		RMSE = 1.3520
+3 -> MAE = 0.5257		RMSE = 0.7614
+4 -> MAE = 0.3552		RMSE = 0.6227
+5 -> MAE = 0.8753		RMSE = 1.0740
+MMMF-CG Training Error:     ZOE = 0.3743		MAE = 0.4105		RMSE = 0.6980
+MMMF-CG Testing Error:		ZOE = 0.5612		MAE = 0.6884		RMSE = 0.9915
+Wrong pred in testing set i.e with abs>0 : 16837
+Rating 1 wrong predictions : 1516
+1 : 304		2 : 819		3 : 360		4 : 33
+Rating 2 wrong predictions : 2989
+1 : 2019		2 : 927		3 : 43		4 : 0
+Rating 3 wrong predictions : 4112
+1 : 3889		2 : 223		3 : 0		4 : 0
+Rating 4 wrong predictions : 3498
+1 : 3379		2 : 95		3 : 24		4 : 0
+Rating 5 wrong predictions : 4722
+1 : 3993		2 : 673		3 : 44		4 : 12
+Rating 1 : 322 / 10089 -- 3.1916 -- 24 added
+Noise 1 : 0 
+Rating 2 : 2908 / 50212 -- 5.7914 -- 23 added
+Noise 2 : 0 
+Rating 3 : 12753 / 581789 -- 2.1920 -- 19 added
+Noise 3 : 0 
+Rating 4 : 19208 / 766536 -- 2.5058 -- 17 added
+Noise 4 : 0 
+Rating 5 : 19661 / 77500 -- 25.3690 -- 20 added
+Noise 5 : 0 
+Conf : 103 
+
+Size of Y = 70103------------------------
+
+
+Run No : 2
+1 -> MAE = 1.6985		RMSE = 1.9885
+2 -> MAE = 1.1943		RMSE = 1.3507
+3 -> MAE = 0.5244		RMSE = 0.7609
+4 -> MAE = 0.3578		RMSE = 0.6248
+5 -> MAE = 0.8772		RMSE = 1.0779
+MMMF-CG Training Error:     ZOE = 0.3725		MAE = 0.4082		RMSE = 0.6957
+MMMF-CG Testing Error:		ZOE = 0.5614		MAE = 0.6889		RMSE = 0.9922
+Wrong pred in testing set i.e with abs>0 : 16842
+Rating 1 wrong predictions : 1515
+1 : 306		2 : 816		3 : 361		4 : 32
+Rating 2 wrong predictions : 2985
+1 : 2019		2 : 922		3 : 44		4 : 0
+Rating 3 wrong predictions : 4099
+1 : 3874		2 : 225		3 : 0		4 : 0
+Rating 4 wrong predictions : 3525
+1 : 3408		2 : 92		3 : 25		4 : 0
+Rating 5 wrong predictions : 4718
+1 : 3976		2 : 684		3 : 45		4 : 13
+Rating 1 : 783 / 10686 -- 7.3273 -- 24 added
+Noise 1 : 0 
+Rating 2 : 3407 / 50210 -- 6.7855 -- 23 added
+Noise 2 : 0 
+Rating 3 : 12449 / 582213 -- 2.1382 -- 19 added
+Noise 3 : 0 
+Rating 4 : 18518 / 766134 -- 2.4171 -- 17 added
+Noise 4 : 0 
+Rating 5 : 21788 / 76780 -- 28.3772 -- 20 added
+Noise 5 : 0 
+Conf : 103 
+
+Size of Y = 70206------------------------
+
+
+Run No : 3
+1 -> MAE = 1.6985		RMSE = 1.9890
+2 -> MAE = 1.1958		RMSE = 1.3511
+3 -> MAE = 0.5235		RMSE = 0.7602
+4 -> MAE = 0.3574		RMSE = 0.6241
+5 -> MAE = 0.8774		RMSE = 1.0787
+MMMF-CG Training Error:     ZOE = 0.3722		MAE = 0.4081		RMSE = 0.6961
+MMMF-CG Testing Error:		ZOE = 0.5612		MAE = 0.6887		RMSE = 0.9922
+Wrong pred in testing set i.e with abs>0 : 16837
+Rating 1 wrong predictions : 1514
+1 : 305		2 : 815		3 : 362		4 : 32
+Rating 2 wrong predictions : 2991
+1 : 2026		2 : 921		3 : 44		4 : 0
+Rating 3 wrong predictions : 4093
+1 : 3869		2 : 224		3 : 0		4 : 0
+Rating 4 wrong predictions : 3522
+1 : 3405		2 : 93		3 : 24		4 : 0
+Rating 5 wrong predictions : 4717
+1 : 3974		2 : 686		3 : 42		4 : 15
+Rating 1 : 2131 / 10895 -- 19.5594 -- 24 added
+Noise 1 : 0 
+Rating 2 : 4425 / 50039 -- 8.8431 -- 23 added
+Noise 2 : 0 
+Rating 3 : 12458 / 582614 -- 2.1383 -- 19 added
+Noise 3 : 0 
+Rating 4 : 19296 / 765607 -- 2.5204 -- 17 added
+Noise 4 : 0 
+Rating 5 : 22900 / 76765 -- 29.8313 -- 20 added
+Noise 5 : 0 
+Conf : 103 
+
+Size of Y = 70309------------------------
+
+
+Run No : 4
+1 -> MAE = 1.6969		RMSE = 1.9876
+2 -> MAE = 1.1964		RMSE = 1.3520
+3 -> MAE = 0.5239		RMSE = 0.7606
+4 -> MAE = 0.3579		RMSE = 0.6253
+5 -> MAE = 0.8777		RMSE = 1.0807
+MMMF-CG Training Error:     ZOE = 0.3718		MAE = 0.4078		RMSE = 0.6961
+MMMF-CG Testing Error:		ZOE = 0.5612		MAE = 0.6890		RMSE = 0.9930
+Wrong pred in testing set i.e with abs>0 : 16836
+Rating 1 wrong predictions : 1514
+1 : 307		2 : 814		3 : 361		4 : 32
+Rating 2 wrong predictions : 2990
+1 : 2022		2 : 924		3 : 44		4 : 0
+Rating 3 wrong predictions : 4095
+1 : 3870		2 : 225		3 : 0		4 : 0
+Rating 4 wrong predictions : 3524
+1 : 3406		2 : 92		3 : 26		4 : 0
+Rating 5 wrong predictions : 4713
+1 : 3969		2 : 684		3 : 43		4 : 17
+Rating 1 : 3173 / 10988 -- 28.8770 -- 24 added
+Noise 1 : 0 
+Rating 2 : 5165 / 49975 -- 10.3352 -- 23 added
+Noise 2 : 0 
+Rating 3 : 12490 / 582766 -- 2.1432 -- 19 added
+Noise 3 : 0 
+Rating 4 : 19615 / 765333 -- 2.5629 -- 17 added
+Noise 4 : 0 
+Rating 5 : 23234 / 76755 -- 30.2703 -- 20 added
+Noise 5 : 0 
+Conf : 103 
+
+Size of Y = 70412------------------------
+

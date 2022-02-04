@@ -1,0 +1,62 @@
+
+Run No : 1
+1 -> MAE = 1.1037		RMSE = 1.5202
+2 -> MAE = 0.8147		RMSE = 1.1223
+3 -> MAE = 0.6402		RMSE = 0.8976
+4 -> MAE = 0.8155		RMSE = 1.1174
+5 -> MAE = 1.2800		RMSE = 1.6362
+MMMF-CG Training Error:     ZOE = 0.1936		MAE = 0.2045		RMSE = 0.4791
+MMMF-CG Testing Error:		ZOE = 0.6376		MAE = 0.8846		RMSE = 1.2246
+Wrong pred in testing set i.e with abs>0 : 19129
+Rating 1 wrong predictions : 1213
+1 : 618		2 : 383		3 : 177		4 : 35
+Rating 2 wrong predictions : 2071
+1 : 1514		2 : 464		3 : 93		4 : 0
+Rating 3 wrong predictions : 4543
+1 : 3869		2 : 674		3 : 0		4 : 0
+Rating 4 wrong predictions : 6421
+1 : 4753		2 : 1391		3 : 277		4 : 0
+Rating 5 wrong predictions : 4881
+1 : 2569		2 : 1506		3 : 626		4 : 180
+Rating 1 : 18 / 93997 -- 0.0191 -- 18 added
+Noise 1 : 0 
+Rating 2 : 40246 / 345295 -- 11.6555 -- 20 added
+Noise 2 : 0 
+Rating 3 : 56762 / 531301 -- 10.6836 -- 20 added
+Noise 3 : 0 
+Rating 4 : 49886 / 418540 -- 11.9191 -- 20 added
+Noise 4 : 0 
+Rating 5 : 1697 / 145753 -- 1.1643 -- 20 added
+Noise 5 : 0 
+Conf : 98 
+
+Run No : 2
+1 -> MAE = 1.1031		RMSE = 1.5168
+2 -> MAE = 0.8147		RMSE = 1.1223
+3 -> MAE = 0.6387		RMSE = 0.8956
+4 -> MAE = 0.8161		RMSE = 1.1183
+5 -> MAE = 1.2815		RMSE = 1.6387
+MMMF-CG Training Error:     ZOE = 0.1934		MAE = 0.2045		RMSE = 0.4791
+MMMF-CG Testing Error:		ZOE = 0.6371		MAE = 0.8847		RMSE = 1.2250
+Wrong pred in testing set i.e with abs>0 : 19113
+Rating 1 wrong predictions : 1217
+1 : 623		2 : 386		3 : 173		4 : 35
+Rating 2 wrong predictions : 2067
+1 : 1502		2 : 476		3 : 89		4 : 0
+Rating 3 wrong predictions : 4539
+1 : 3873		2 : 666		3 : 0		4 : 0
+Rating 4 wrong predictions : 6415
+1 : 4730		2 : 1413		3 : 272		4 : 0
+Rating 5 wrong predictions : 4875
+1 : 2551		2 : 1515		3 : 628		4 : 181
+Rating 1 : 0 / 93754 -- 0.0000 -- 0 added
+Noise 1 : 0 
+Rating 2 : 41586 / 345813 -- 12.0256 -- 21 added
+Noise 2 : 0 
+Rating 3 : 59017 / 532354 -- 11.0860 -- 21 added
+Noise 3 : 0 
+Rating 4 : 51338 / 418910 -- 12.2551 -- 21 added
+Noise 4 : 0 
+Rating 5 : 1677 / 143957 -- 1.1649 -- 21 added
+Noise 5 : 0 
+Conf : 84 

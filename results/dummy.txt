@@ -1,0 +1,3 @@
+Reg 22 : 15.3993
+MMMF-CG Training Error:     ZOE = 0.3022		MAE = 0.3240		RMSE = 0.6083
+MMMF-CG Testing Error:		ZOE = 0.5610		MAE = 0.6909		RMSE = 0.9943

@@ -1,0 +1,78 @@
+Iter: = 10 	 Obj: = 95547.2133 
+Iter: = 20 	 Obj: = 63586.0098 
+Iter: = 30 	 Obj: = 60882.1187 
+Iter: = 40 	 Obj: = 60155.7794 
+Iter: = 50 	 Obj: = 59954.7915 
+Iter: = 60 	 Obj: = 59823.2364 
+
+Run No : 1
+MMMF-CG Training Error:     ZOE = 0.4022		MAE = 0.4459		RMSE = 0.7348
+MMMF-CG Testing Error:		ZOE = 0.5631		MAE = 0.6904		RMSE = 0.9909
+Wrong pred in training set with abs>1 : 2836
+Rating 1 : 4050 / 10085 -- 40.1587 -- 405 added
+Noise 1 : 2 
+Rating 2 : 7000 / 47129 -- 14.8529 -- 2100 added
+Noise 2 : 3 
+Rating 3 : 23901 / 570862 -- 4.1868 -- 240 added
+Noise 3 : 7 
+Rating 4 : 33587 / 780025 -- 4.3059 -- 336 added
+Noise 4 : 10 
+Rating 5 : 46203 / 78025 -- 59.2156 -- 925 added
+Noise 5 : 11 
+Conf : 4006 
+Noise : 33 
+
+Size of Y = 73973------------------------
+
+Iter: = 10 	 Obj: = 60383.7447 
+Iter: = 20 	 Obj: = 60285.6142 
+Iter: = 30 	 Obj: = 60248.1293 
+Iter: = 40 	 Obj: = 60221.2980 
+Iter: = 50 	 Obj: = 60200.1093 
+Iter: = 60 	 Obj: = 60182.5272 
+
+Run No : 2
+MMMF-CG Training Error:     ZOE = 0.3723		MAE = 0.4125		RMSE = 0.7069
+MMMF-CG Testing Error:		ZOE = 0.5612		MAE = 0.6888		RMSE = 0.9920
+Wrong pred in training set with abs>1 : 2738
+Rating 1 : 4567 / 7470 -- 61.1379 -- 457 added
+Noise 1 : 2 
+Rating 2 : 8287 / 59080 -- 14.0267 -- 2487 added
+Noise 2 : 3 
+Rating 3 : 27093 / 562165 -- 4.8194 -- 271 added
+Noise 3 : 8 
+Rating 4 : 39544 / 768249 -- 5.1473 -- 396 added
+Noise 4 : 8 
+Rating 5 : 59135 / 85189 -- 69.4162 -- 1183 added
+Noise 5 : 12 
+Conf : 4794 
+Noise : 33 
+
+Size of Y = 78734------------------------
+
+Iter: = 10 	 Obj: = 60676.7532 
+Iter: = 20 	 Obj: = 60656.9627 
+Iter: = 30 	 Obj: = 60645.6363 
+Iter: = 40 	 Obj: = 60636.9610 
+Iter: = 50 	 Obj: = 60629.8230 
+Iter: = 60 	 Obj: = 60623.7807 
+
+Run No : 3
+MMMF-CG Training Error:     ZOE = 0.3477		MAE = 0.3859		RMSE = 0.6853
+MMMF-CG Testing Error:		ZOE = 0.5621		MAE = 0.6900		RMSE = 0.9932
+Wrong pred in training set with abs>1 : 2744
+Rating 1 : 4807 / 6988 -- 68.7894 -- 481 added
+Noise 1 : 2 
+Rating 2 : 7670 / 61259 -- 12.5206 -- 2301 added
+Noise 2 : 4 
+Rating 3 : 28840 / 560362 -- 5.1467 -- 289 added
+Noise 3 : 8 
+Rating 4 : 43571 / 760482 -- 5.7294 -- 436 added
+Noise 4 : 8 
+Rating 5 : 67899 / 88301 -- 76.8949 -- 1358 added
+Noise 5 : 11 
+Conf : 4865 
+Noise : 33 
+
+Size of Y = 83566------------------------
+

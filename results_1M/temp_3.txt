@@ -1,0 +1,8 @@
+
+Run No : 1
+MMMF-CG Training Error:     ZOE = 0.2254		MAE = 0.2340		RMSE = 0.5022
+MMMF-CG Testing Error:		ZOE = 0.5491		MAE = 0.6702		NMAE = 0.1870		RMSE = 0.9741
+
+Run No : 2
+MMMF-CG Training Error:     ZOE = 0.2231		MAE = 0.2316		RMSE = 0.4994
+MMMF-CG Testing Error:		ZOE = 0.5490		MAE = 0.6696		NMAE = 0.1869		RMSE = 0.9730

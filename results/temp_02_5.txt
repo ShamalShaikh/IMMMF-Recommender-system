@@ -1,0 +1,261 @@
+Iter: = 1 	 Obj: = 2978968.5527 
+Iter: = 2 	 Obj: = 1253238.0264 
+Iter: = 3 	 Obj: = 671128.8602 
+Iter: = 4 	 Obj: = 413711.2740 
+Iter: = 5 	 Obj: = 283930.0557 
+Iter: = 6 	 Obj: = 208899.0933 
+Iter: = 7 	 Obj: = 161318.4524 
+Iter: = 8 	 Obj: = 130299.5220 
+Iter: = 9 	 Obj: = 109199.5754 
+Iter: = 10 	 Obj: = 95238.0494 
+Iter: = 11 	 Obj: = 85429.8589 
+Iter: = 12 	 Obj: = 78859.8330 
+Iter: = 13 	 Obj: = 74776.4608 
+Iter: = 14 	 Obj: = 71922.8210 
+Iter: = 15 	 Obj: = 70948.0564 
+Iter: = 16 	 Obj: = 69659.8349 
+Iter: = 17 	 Obj: = 65735.5971 
+Iter: = 18 	 Obj: = 64448.5305 
+Iter: = 19 	 Obj: = 63856.0711 
+Iter: = 20 	 Obj: = 63577.3900 
+Iter: = 21 	 Obj: = 63224.6117 
+Iter: = 22 	 Obj: = 62381.7245 
+Iter: = 23 	 Obj: = 62342.7959 
+Iter: = 24 	 Obj: = 61917.1290 
+Iter: = 25 	 Obj: = 61448.5556 
+Iter: = 26 	 Obj: = 61188.5686 
+Iter: = 27 	 Obj: = 61040.9820 
+Iter: = 28 	 Obj: = 60927.0753 
+Iter: = 29 	 Obj: = 60848.8640 
+Iter: = 30 	 Obj: = 60719.2537 
+Iter: = 31 	 Obj: = 60614.1607 
+Iter: = 32 	 Obj: = 60575.6119 
+Iter: = 33 	 Obj: = 60550.0906 
+Iter: = 34 	 Obj: = 60448.9322 
+Iter: = 35 	 Obj: = 60369.9024 
+Iter: = 36 	 Obj: = 60169.9131 
+Iter: = 37 	 Obj: = 60077.3993 
+Iter: = 38 	 Obj: = 60021.0998 
+Iter: = 39 	 Obj: = 59997.0357 
+Iter: = 40 	 Obj: = 59945.3076 
+Iter: = 41 	 Obj: = 59930.9661 
+Iter: = 42 	 Obj: = 59892.9509 
+Iter: = 43 	 Obj: = 59885.5229 
+Iter: = 44 	 Obj: = 59845.7402 
+Iter: = 45 	 Obj: = 59839.9082 
+Iter: = 46 	 Obj: = 59807.3901 
+Iter: = 47 	 Obj: = 59804.2232 
+Iter: = 48 	 Obj: = 59771.5149 
+Iter: = 49 	 Obj: = 59768.7413 
+Iter: = 50 	 Obj: = 59740.4654 
+Iter: = 51 	 Obj: = 59739.0324 
+Iter: = 52 	 Obj: = 59711.1912 
+Iter: = 53 	 Obj: = 59710.2464 
+Iter: = 54 	 Obj: = 59685.1133 
+Iter: = 55 	 Obj: = 59648.4549 
+Iter: = 56 	 Obj: = 59646.2732 
+Iter: = 57 	 Obj: = 59628.2745 
+Iter: = 58 	 Obj: = 59627.3013 
+Iter: = 59 	 Obj: = 59611.2039 
+Iter: = 60 	 Obj: = 59610.3250 
+Iter: = 61 	 Obj: = 59595.0363 
+Iter: = 62 	 Obj: = 59594.5109 
+Iter: = 63 	 Obj: = 59579.9903 
+Iter: = 64 	 Obj: = 59556.4004 
+Iter: = 65 	 Obj: = 59547.8126 
+
+Run No : 1
+MMMF-CG Training Error:     ZOE = 0.3999		MAE = 0.4426		RMSE = 0.7311
+MMMF-CG Testing Error:		ZOE = 0.5637		MAE = 0.6953		RMSE = 0.9997
+Wrong pred in training set with abs>1 : 2760
+Rating 1 : 4171 / 10220 -- 40.8121 -- 209 added
+Noise 1 : 2 
+Left : 0	Right : 6049
+Rating 2 : 989 / 51391 -- 1.9245 -- 30 added
+Noise 2 : 3 
+Rating 3 : 26883 / 561771 -- 4.7854 -- 269 added
+Noise 3 : 8 
+Rating 4 : 38933 / 787244 -- 4.9455 -- 390 added
+Noise 4 : 8 
+Rating 5 : 42284 / 75500 -- 56.0053 -- 846 added
+Noise 5 : 12 
+Left : 33216	Right : 0
+Conf : 1744 
+Noise : 33 
+
+Size of Y = 71711------------------------
+
+Iter: = 1 	 Obj: = 59971.4147 
+Iter: = 2 	 Obj: = 59933.4349 
+Iter: = 3 	 Obj: = 59899.9155 
+Iter: = 4 	 Obj: = 59899.4925 
+Iter: = 5 	 Obj: = 59888.1301 
+Iter: = 6 	 Obj: = 59824.6051 
+Iter: = 7 	 Obj: = 59772.3945 
+Iter: = 8 	 Obj: = 59764.0415 
+Iter: = 9 	 Obj: = 59747.4583 
+Iter: = 10 	 Obj: = 59720.9780 
+Iter: = 11 	 Obj: = 59714.3043 
+Iter: = 12 	 Obj: = 59707.3814 
+Iter: = 13 	 Obj: = 59702.5607 
+Iter: = 14 	 Obj: = 59697.2663 
+Iter: = 15 	 Obj: = 59693.1541 
+Iter: = 16 	 Obj: = 59688.5270 
+Iter: = 17 	 Obj: = 59684.8734 
+Iter: = 18 	 Obj: = 59680.6387 
+Iter: = 19 	 Obj: = 59677.3553 
+Iter: = 20 	 Obj: = 59673.3799 
+Iter: = 21 	 Obj: = 59670.4172 
+Iter: = 22 	 Obj: = 59666.6203 
+Iter: = 23 	 Obj: = 59663.9391 
+Iter: = 24 	 Obj: = 59660.2688 
+Iter: = 25 	 Obj: = 59657.8360 
+Iter: = 26 	 Obj: = 59654.2616 
+Iter: = 27 	 Obj: = 59652.0478 
+Iter: = 28 	 Obj: = 59648.5516 
+Iter: = 29 	 Obj: = 59646.5327 
+Iter: = 30 	 Obj: = 59643.0999 
+Iter: = 31 	 Obj: = 59641.2562 
+Iter: = 32 	 Obj: = 59637.8798 
+Iter: = 33 	 Obj: = 59636.1935 
+Iter: = 34 	 Obj: = 59632.8700 
+Iter: = 35 	 Obj: = 59631.3251 
+Iter: = 36 	 Obj: = 59628.0528 
+Iter: = 37 	 Obj: = 59626.6366 
+Iter: = 38 	 Obj: = 59623.4160 
+Iter: = 39 	 Obj: = 59622.1164 
+Iter: = 40 	 Obj: = 59618.9498 
+Iter: = 41 	 Obj: = 59617.7563 
+Iter: = 42 	 Obj: = 59614.6469 
+Iter: = 43 	 Obj: = 59613.5513 
+Iter: = 44 	 Obj: = 59610.5023 
+Iter: = 45 	 Obj: = 59609.4971 
+Iter: = 46 	 Obj: = 59606.5103 
+Iter: = 47 	 Obj: = 59605.5891 
+Iter: = 48 	 Obj: = 59602.6654 
+Iter: = 49 	 Obj: = 59601.8232 
+Iter: = 50 	 Obj: = 59598.9629 
+Iter: = 51 	 Obj: = 59598.1954 
+Iter: = 52 	 Obj: = 59595.3978 
+Iter: = 53 	 Obj: = 59594.7007 
+Iter: = 54 	 Obj: = 59591.9644 
+Iter: = 55 	 Obj: = 59591.3338 
+Iter: = 56 	 Obj: = 59588.6569 
+Iter: = 57 	 Obj: = 59588.0895 
+Iter: = 58 	 Obj: = 59585.4698 
+Iter: = 59 	 Obj: = 59584.9623 
+Iter: = 60 	 Obj: = 59582.3970 
+Iter: = 61 	 Obj: = 59581.9462 
+Iter: = 62 	 Obj: = 59579.4325 
+Iter: = 63 	 Obj: = 59579.0355 
+Iter: = 64 	 Obj: = 59576.5713 
+Iter: = 65 	 Obj: = 59576.2254 
+
+Run No : 2
+MMMF-CG Training Error:     ZOE = 0.3812		MAE = 0.4217		RMSE = 0.7141
+MMMF-CG Testing Error:		ZOE = 0.5618		MAE = 0.6942		RMSE = 1.0007
+Wrong pred in training set with abs>1 : 2662
+Rating 1 : 6819 / 12542 -- 54.3693 -- 341 added
+Noise 1 : 3 
+Left : 0	Right : 5723
+Rating 2 : 1112 / 51556 -- 2.1569 -- 34 added
+Noise 2 : 3 
+Rating 3 : 30353 / 563280 -- 5.3886 -- 304 added
+Noise 3 : 9 
+Rating 4 : 46357 / 777344 -- 5.9635 -- 464 added
+Noise 4 : 9 
+Rating 5 : 56078 / 79693 -- 70.3675 -- 1122 added
+Noise 5 : 12 
+Left : 23615	Right : 0
+Conf : 2265 
+Noise : 36 
+
+Size of Y = 73940------------------------
+
+Iter: = 1 	 Obj: = 59948.7956 
+Iter: = 2 	 Obj: = 59940.0595 
+Iter: = 3 	 Obj: = 59893.8470 
+Iter: = 4 	 Obj: = 59873.6880 
+Iter: = 5 	 Obj: = 59839.8230 
+Iter: = 6 	 Obj: = 59834.8565 
+Iter: = 7 	 Obj: = 59810.8966 
+Iter: = 8 	 Obj: = 59809.0270 
+Iter: = 9 	 Obj: = 59804.8265 
+Iter: = 10 	 Obj: = 59804.4862 
+Iter: = 11 	 Obj: = 59801.2172 
+Iter: = 12 	 Obj: = 59790.4041 
+Iter: = 13 	 Obj: = 59788.8167 
+Iter: = 14 	 Obj: = 59787.6882 
+Iter: = 15 	 Obj: = 59786.5972 
+Iter: = 16 	 Obj: = 59786.0757 
+Iter: = 17 	 Obj: = 59785.4029 
+Iter: = 18 	 Obj: = 59780.2246 
+Iter: = 19 	 Obj: = 59779.1282 
+Iter: = 20 	 Obj: = 59778.2497 
+Iter: = 21 	 Obj: = 59777.4264 
+Iter: = 22 	 Obj: = 59776.9310 
+Iter: = 23 	 Obj: = 59776.4239 
+Iter: = 24 	 Obj: = 59772.9619 
+Iter: = 25 	 Obj: = 59772.0642 
+Iter: = 26 	 Obj: = 59771.3149 
+Iter: = 27 	 Obj: = 59770.6191 
+Iter: = 28 	 Obj: = 59770.1636 
+Iter: = 29 	 Obj: = 59769.7287 
+Iter: = 30 	 Obj: = 59769.7192 
+Iter: = 31 	 Obj: = 59769.6029 
+Iter: = 32 	 Obj: = 59765.4862 
+Iter: = 33 	 Obj: = 59764.8416 
+Iter: = 34 	 Obj: = 59764.3829 
+Iter: = 35 	 Obj: = 59763.9590 
+Iter: = 36 	 Obj: = 59763.8606 
+Iter: = 37 	 Obj: = 59763.7227 
+Iter: = 38 	 Obj: = 59760.3960 
+Iter: = 39 	 Obj: = 59759.8028 
+Iter: = 40 	 Obj: = 59759.3593 
+Iter: = 41 	 Obj: = 59758.9579 
+Iter: = 42 	 Obj: = 59758.8215 
+Iter: = 43 	 Obj: = 59758.6823 
+Iter: = 44 	 Obj: = 59755.8465 
+Iter: = 45 	 Obj: = 59755.3006 
+Iter: = 46 	 Obj: = 59754.8808 
+Iter: = 47 	 Obj: = 59754.5055 
+Iter: = 48 	 Obj: = 59754.3586 
+Iter: = 49 	 Obj: = 59754.2285 
+Iter: = 50 	 Obj: = 59751.7161 
+Iter: = 51 	 Obj: = 59751.2126 
+Iter: = 52 	 Obj: = 59750.8203 
+Iter: = 53 	 Obj: = 59750.4738 
+Iter: = 54 	 Obj: = 59750.3317 
+Iter: = 55 	 Obj: = 59750.2167 
+Iter: = 56 	 Obj: = 59747.9277 
+Iter: = 57 	 Obj: = 59747.4626 
+Iter: = 58 	 Obj: = 59747.0992 
+Iter: = 59 	 Obj: = 59746.7819 
+Iter: = 60 	 Obj: = 59746.6522 
+Iter: = 61 	 Obj: = 59746.5561 
+Iter: = 62 	 Obj: = 59744.4293 
+Iter: = 63 	 Obj: = 59743.9997 
+Iter: = 64 	 Obj: = 59743.6651 
+Iter: = 65 	 Obj: = 59743.3767 
+
+Run No : 3
+MMMF-CG Training Error:     ZOE = 0.3671		MAE = 0.4064		RMSE = 0.7022
+MMMF-CG Testing Error:		ZOE = 0.5624		MAE = 0.6954		RMSE = 1.0026
+Wrong pred in training set with abs>1 : 2642
+Rating 1 : 10091 / 15555 -- 64.8730 -- 505 added
+Noise 1 : 3 
+Left : 0	Right : 5464
+Rating 2 : 1183 / 49713 -- 2.3797 -- 36 added
+Noise 2 : 2 
+Rating 3 : 32647 / 563421 -- 5.7944 -- 327 added
+Noise 3 : 10 
+Rating 4 : 52443 / 769489 -- 6.8153 -- 525 added
+Noise 4 : 9 
+Rating 5 : 62503 / 84008 -- 74.4012 -- 1251 added
+Noise 5 : 13 
+Left : 21505	Right : 0
+Conf : 2644 
+Noise : 37 
+
+Size of Y = 76547------------------------
+

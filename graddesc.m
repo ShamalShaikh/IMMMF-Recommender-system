@@ -45,7 +45,10 @@ while num_iter < maxiter & error > threshold
                 theta = theta + eta_arr(id).*dtheta;
                 flag = 1;
                 prevobj = obj_h;
-                fprintf(fs,'Eta_arr = %.4f \n',eta_arr(id));
+                %fprintf(fs,'Eta_arr = %.4f \n',eta_arr(id));
+                if(mod(num_iter, 10) == 0)
+                    fprintf(fs,'Iter: = %d \t Obj: = %.4f \n',num_iter,obj_h);
+                end
                 break;
             end
         end
@@ -60,6 +63,9 @@ while num_iter < maxiter & error > threshold
         V = V + eta.*dV;
         theta = theta + eta.*dtheta;
         prevobj = obj;
+        if(mod(num_iter, 10) == 0)
+            fprintf(fs,'Iter: = %d \t Obj: = %.4f \n',num_iter,obj);
+        end
     end
     
     x = [U(:); V(:); theta(:)];
@@ -70,9 +76,7 @@ while num_iter < maxiter & error > threshold
     
     error = RMSE(YPred, Ytrn);
     
-    if(mod(num_iter, 1) == 0)
-        fprintf(fs,'Iter: = %d \t Obj: = %.4f \n',num_iter,obj);
-    end
+    
     %error
 end
 

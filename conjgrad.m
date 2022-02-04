@@ -61,7 +61,7 @@ function [x,numiter,ogcalls, J] = conjgrad(x0,parameter)
   x = x0;
   numiter = 0;
   j = 0;
-  alpha = 1e-10;
+  alpha = 1e-8;
 
   ogcalls = ogcalls + 1;
   [obj,dx] = ogfun(x,parameter);

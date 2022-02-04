@@ -1,0 +1,295 @@
+Iter: = 1 	 Obj: = 2769035.7153 
+Iter: = 2 	 Obj: = 1181456.0083 
+Iter: = 3 	 Obj: = 663734.4999 
+Iter: = 4 	 Obj: = 426685.2193 
+Iter: = 5 	 Obj: = 302562.6500 
+Iter: = 6 	 Obj: = 228037.7025 
+Iter: = 7 	 Obj: = 178667.3906 
+Iter: = 8 	 Obj: = 144978.1918 
+Iter: = 9 	 Obj: = 121352.4881 
+Iter: = 10 	 Obj: = 104981.9196 
+Iter: = 11 	 Obj: = 93421.0966 
+Iter: = 12 	 Obj: = 85331.9342 
+Iter: = 13 	 Obj: = 80121.0879 
+Iter: = 14 	 Obj: = 75989.4517 
+Iter: = 15 	 Obj: = 73555.2904 
+Iter: = 16 	 Obj: = 70395.7017 
+Iter: = 17 	 Obj: = 68817.0677 
+Iter: = 18 	 Obj: = 67139.3514 
+Iter: = 19 	 Obj: = 66265.6069 
+Iter: = 20 	 Obj: = 65273.6796 
+Iter: = 21 	 Obj: = 64942.2353 
+Iter: = 22 	 Obj: = 63913.6106 
+Eta_arr = 0.0086 
+Iter: = 23 	 Obj: = 61528.2320 
+Eta_arr = 0.0086 
+Iter: = 24 	 Obj: = 60744.1254 
+Eta_arr = 0.0086 
+Iter: = 25 	 Obj: = 60454.0754 
+Eta_arr = 0.0086 
+Iter: = 26 	 Obj: = 60166.7987 
+Eta_arr = 0.0086 
+Iter: = 27 	 Obj: = 60070.6048 
+Eta_arr = 0.0086 
+Iter: = 28 	 Obj: = 60041.6560 
+Eta_arr = 0.0086 
+Iter: = 29 	 Obj: = 60012.2735 
+Eta_arr = 0.0086 
+Iter: = 30 	 Obj: = 59960.6711 
+Eta_arr = 0.0086 
+Iter: = 31 	 Obj: = 59848.3206 
+Eta_arr = 0.0071 
+Iter: = 32 	 Obj: = 59092.2472 
+Eta_arr = 0.0071 
+Iter: = 33 	 Obj: = 58679.6457 
+Eta_arr = 0.0071 
+Iter: = 34 	 Obj: = 58367.8201 
+Eta_arr = 0.0071 
+Iter: = 35 	 Obj: = 58251.6759 
+Eta_arr = 0.0071 
+Iter: = 36 	 Obj: = 58156.3633 
+Eta_arr = 0.0057 
+Iter: = 37 	 Obj: = 57984.3428 
+Eta_arr = 0.0071 
+Iter: = 38 	 Obj: = 57900.1484 
+Eta_arr = 0.0057 
+Iter: = 39 	 Obj: = 57850.1337 
+Eta_arr = 0.0071 
+Iter: = 40 	 Obj: = 57789.8450 
+Eta_arr = 0.0057 
+Iter: = 41 	 Obj: = 57768.0648 
+Eta_arr = 0.0071 
+Iter: = 42 	 Obj: = 57705.1075 
+Eta_arr = 0.0057 
+Iter: = 43 	 Obj: = 57692.3416 
+Eta_arr = 0.0071 
+Iter: = 44 	 Obj: = 57639.0114 
+Eta_arr = 0.0057 
+Iter: = 45 	 Obj: = 57632.0869 
+Eta_arr = 0.0071 
+Iter: = 46 	 Obj: = 57579.4458 
+Eta_arr = 0.0057 
+Iter: = 47 	 Obj: = 57575.3942 
+Eta_arr = 0.0071 
+Iter: = 48 	 Obj: = 57528.2386 
+Eta_arr = 0.0057 
+Iter: = 49 	 Obj: = 57526.9100 
+Eta_arr = 0.0071 
+Iter: = 50 	 Obj: = 57481.3649 
+Eta_arr = 0.0043 
+Iter: = 51 	 Obj: = 57418.4997 
+Eta_arr = 0.0057 
+Iter: = 52 	 Obj: = 57389.4734 
+Eta_arr = 0.0043 
+Iter: = 53 	 Obj: = 57363.4617 
+Eta_arr = 0.0057 
+Iter: = 54 	 Obj: = 57352.3084 
+Eta_arr = 0.0043 
+Iter: = 55 	 Obj: = 57331.7404 
+Eta_arr = 0.0057 
+Iter: = 56 	 Obj: = 57323.8234 
+Eta_arr = 0.0043 
+Iter: = 57 	 Obj: = 57304.9178 
+Eta_arr = 0.0057 
+Iter: = 58 	 Obj: = 57298.8916 
+Eta_arr = 0.0043 
+Iter: = 59 	 Obj: = 57280.5193 
+Eta_arr = 0.0057 
+Iter: = 60 	 Obj: = 57275.2223 
+Eta_arr = 0.0043 
+Iter: = 61 	 Obj: = 57257.1393 
+Eta_arr = 0.0057 
+Iter: = 62 	 Obj: = 57252.1885 
+Eta_arr = 0.0043 
+Iter: = 63 	 Obj: = 57234.4859 
+Eta_arr = 0.0057 
+Iter: = 64 	 Obj: = 57230.0546 
+Eta_arr = 0.0043 
+Iter: = 65 	 Obj: = 57212.8192 
+
+Run No : 1
+MMMF-CG Training Error:     ZOE = 0.3456		MAE = 0.3747		RMSE = 0.6609
+MMMF-CG Testing Error:		ZOE = 0.5588		MAE = 0.6897		RMSE = 0.9951
+Rating 1 : 5842 / 11793 -- 49.5379 -- 293 added
+Noise 1 : 189 
+Left : 0	Right : 5951
+Rating 2 : 882 / 46674 -- 1.8897 -- 27 added
+Noise 2 : 228 
+Rating 3 : 22494 / 593497 -- 3.7901 -- 225 added
+Noise 3 : 570 
+Rating 4 : 38260 / 758140 -- 5.0466 -- 383 added
+Noise 4 : 621 
+Rating 5 : 47498 / 76022 -- 62.4793 -- 950 added
+Noise 5 : 880 
+Left : 28524	Right : 0
+
+Size of Y = 71878------------------------
+
+Iter: = 1 	 Obj: = 57720.4298 
+Iter: = 2 	 Obj: = 57715.1204 
+Eta_arr = 0.0086 
+Iter: = 3 	 Obj: = 57653.5773 
+Eta_arr = 0.0086 
+Iter: = 4 	 Obj: = 57470.5008 
+Eta_arr = 0.0057 
+Iter: = 5 	 Obj: = 57449.3716 
+Eta_arr = 0.0057 
+Iter: = 6 	 Obj: = 57440.4089 
+Eta_arr = 0.0043 
+Iter: = 7 	 Obj: = 57413.8239 
+Eta_arr = 0.0057 
+Iter: = 8 	 Obj: = 57411.7787 
+Eta_arr = 0.0043 
+Iter: = 9 	 Obj: = 57398.5681 
+Eta_arr = 0.0057 
+Iter: = 10 	 Obj: = 57397.7258 
+Eta_arr = 0.0043 
+Iter: = 11 	 Obj: = 57386.7649 
+Eta_arr = 0.0057 
+Iter: = 12 	 Obj: = 57383.0247 
+Eta_arr = 0.0043 
+Iter: = 13 	 Obj: = 57373.3576 
+Eta_arr = 0.0057 
+Iter: = 14 	 Obj: = 57371.1290 
+Eta_arr = 0.0043 
+Iter: = 15 	 Obj: = 57361.9227 
+Eta_arr = 0.0057 
+Iter: = 16 	 Obj: = 57358.7171 
+Eta_arr = 0.0043 
+Iter: = 17 	 Obj: = 57349.6291 
+Eta_arr = 0.0057 
+Iter: = 18 	 Obj: = 57346.0930 
+Eta_arr = 0.0043 
+Iter: = 19 	 Obj: = 57337.2592 
+Eta_arr = 0.0057 
+Iter: = 20 	 Obj: = 57334.0336 
+Eta_arr = 0.0043 
+Iter: = 21 	 Obj: = 57325.5351 
+Eta_arr = 0.0057 
+Iter: = 22 	 Obj: = 57322.7269 
+Eta_arr = 0.0043 
+Iter: = 23 	 Obj: = 57314.5406 
+Eta_arr = 0.0057 
+Iter: = 24 	 Obj: = 57312.0882 
+Eta_arr = 0.0043 
+Iter: = 25 	 Obj: = 57304.1802 
+Eta_arr = 0.0057 
+Iter: = 26 	 Obj: = 57302.0349 
+Eta_arr = 0.0043 
+Iter: = 27 	 Obj: = 57294.3748 
+Eta_arr = 0.0057 
+Iter: = 28 	 Obj: = 57292.5056 
+Eta_arr = 0.0043 
+Iter: = 29 	 Obj: = 57285.0717 
+Eta_arr = 0.0057 
+Iter: = 30 	 Obj: = 57283.4569 
+Eta_arr = 0.0043 
+Iter: = 31 	 Obj: = 57276.2309 
+Eta_arr = 0.0057 
+Iter: = 32 	 Obj: = 57274.8517 
+Eta_arr = 0.0043 
+Iter: = 33 	 Obj: = 57267.8188 
+Eta_arr = 0.0057 
+Iter: = 34 	 Obj: = 57266.6606 
+Eta_arr = 0.0043 
+Iter: = 35 	 Obj: = 57259.8077 
+Eta_arr = 0.0057 
+Iter: = 36 	 Obj: = 57258.8554 
+Eta_arr = 0.0043 
+Iter: = 37 	 Obj: = 57252.1706 
+Eta_arr = 0.0057 
+Iter: = 38 	 Obj: = 57251.4119 
+Eta_arr = 0.0043 
+Iter: = 39 	 Obj: = 57244.8832 
+Eta_arr = 0.0057 
+Iter: = 40 	 Obj: = 57244.3049 
+Eta_arr = 0.0043 
+Iter: = 41 	 Obj: = 57237.9210 
+Eta_arr = 0.0057 
+Iter: = 42 	 Obj: = 57237.5109 
+Eta_arr = 0.0043 
+Iter: = 43 	 Obj: = 57231.2616 
+Eta_arr = 0.0057 
+Iter: = 44 	 Obj: = 57231.0087 
+Eta_arr = 0.0043 
+Iter: = 45 	 Obj: = 57224.8845 
+Eta_arr = 0.0057 
+Iter: = 46 	 Obj: = 57224.7792 
+Eta_arr = 0.0043 
+Iter: = 47 	 Obj: = 57218.7716 
+Eta_arr = 0.0043 
+Iter: = 48 	 Obj: = 57193.8914 
+Eta_arr = 0.0043 
+Iter: = 49 	 Obj: = 57190.5314 
+Eta_arr = 0.0043 
+Iter: = 50 	 Obj: = 57186.2847 
+Eta_arr = 0.0043 
+Iter: = 51 	 Obj: = 57183.7262 
+Eta_arr = 0.0043 
+Iter: = 52 	 Obj: = 57180.4051 
+Eta_arr = 0.0043 
+Iter: = 53 	 Obj: = 57178.1034 
+Eta_arr = 0.0043 
+Iter: = 54 	 Obj: = 57175.2115 
+Eta_arr = 0.0043 
+Iter: = 55 	 Obj: = 57173.0853 
+Eta_arr = 0.0043 
+Iter: = 56 	 Obj: = 57170.4453 
+Eta_arr = 0.0043 
+Iter: = 57 	 Obj: = 57168.4608 
+Eta_arr = 0.0043 
+Iter: = 58 	 Obj: = 57165.9949 
+Eta_arr = 0.0043 
+Iter: = 59 	 Obj: = 57164.1336 
+Eta_arr = 0.0043 
+Iter: = 60 	 Obj: = 57161.7954 
+Eta_arr = 0.0043 
+Iter: = 61 	 Obj: = 57160.0454 
+Eta_arr = 0.0043 
+Iter: = 62 	 Obj: = 57157.8044 
+Eta_arr = 0.0043 
+Iter: = 63 	 Obj: = 57156.1564 
+Eta_arr = 0.0043 
+Iter: = 64 	 Obj: = 57153.9912 
+Eta_arr = 0.0043 
+Iter: = 65 	 Obj: = 57152.4393 
+
+Run No : 2
+MMMF-CG Training Error:     ZOE = 0.3205		MAE = 0.3468		RMSE = 0.6353
+MMMF-CG Testing Error:		ZOE = 0.5596		MAE = 0.6921		RMSE = 0.9986
+Rating 1 : 10077 / 14082 -- 71.5594 -- 504 added
+Noise 1 : 183 
+Left : 0	Right : 4005
+Rating 2 : 968 / 47941 -- 2.0191 -- 30 added
+Noise 2 : 242 
+Rating 3 : 25051 / 597153 -- 4.1951 -- 251 added
+Noise 3 : 569 
+Rating 4 : 40131 / 738377 -- 5.4350 -- 402 added
+Noise 4 : 553 
+Rating 5 : 58536 / 86695 -- 67.5195 -- 1171 added
+Noise 5 : 881 
+Left : 28159	Right : 0
+
+Size of Y = 74236------------------------
+
+Iter: = 1 	 Obj: = 57578.7056 
+Iter: = 2 	 Obj: = 57524.1597 
+
+Run No : 3
+MMMF-CG Training Error:     ZOE = 0.3128		MAE = 0.3407		RMSE = 0.6339
+MMMF-CG Testing Error:		ZOE = 0.5589		MAE = 0.6916		RMSE = 0.9991
+Rating 1 : 11377 / 14200 -- 80.1197 -- 569 added
+Noise 1 : 185 
+Left : 0	Right : 2823
+Rating 2 : 953 / 47784 -- 1.9944 -- 29 added
+Noise 2 : 244 
+Rating 3 : 25902 / 597469 -- 4.3353 -- 260 added
+Noise 3 : 558 
+Rating 4 : 40866 / 733132 -- 5.5742 -- 409 added
+Noise 4 : 549 
+Rating 5 : 63482 / 89305 -- 71.0845 -- 1270 added
+Noise 5 : 882 
+Left : 25823	Right : 0
+
+Size of Y = 76773------------------------
+

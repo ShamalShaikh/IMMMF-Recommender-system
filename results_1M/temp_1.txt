@@ -1,0 +1,40 @@
+
+Run No : 1
+MMMF-CG Training Error:     ZOE = 0.8971		MAE = 2.2616		RMSE = 2.5823
+MMMF-CG Testing Error:		ZOE = 0.9027		MAE = 2.2858		RMSE = 2.5989
+Wrong pred in training set with abs>1 : 449411
+Rating 1 : 8535553 / 8575638 -- 99.5326 -- 1707111 added
+Noise 1 : 1 
+Rating 2 : 508794 / 1578189 -- 32.2391 -- 40704 added
+Noise 2 : 3 
+Rating 3 : 243462 / 1657689 -- 14.6868 -- 2435 added
+Noise 3 : 5 
+Rating 4 : 295995 / 2076378 -- 14.2554 -- 2960 added
+Noise 4 : 8 
+Rating 5 : 9022757 / 9082186 -- 99.3457 -- 270683 added
+Noise 5 : 2 
+Conf : 2023893 
+Noise : 19 
+
+Size of Y = 2653874------------------------
+
+
+Run No : 2
+MMMF-CG Training Error:     ZOE = 0.3565		MAE = 1.0810		RMSE = 1.9225
+MMMF-CG Testing Error:		ZOE = 0.9238		MAE = 2.4026		RMSE = 2.6823
+Wrong pred in training set with abs>1 : 822304
+Rating 1 : 10315434 / 10316796 -- 99.9868 -- 2063087 added
+Noise 1 : 1 
+Rating 2 : 1899 / 8368 -- 22.6936 -- 152 added
+Noise 2 : 0 
+Rating 3 : 1514 / 10131 -- 14.9442 -- 16 added
+Noise 3 : 1 
+Rating 4 : 1805 / 14971 -- 12.0566 -- 19 added
+Noise 4 : 0 
+Rating 5 : 10595363 / 10595940 -- 99.9946 -- 317861 added
+Noise 5 : 1 
+Conf : 2381135 
+Noise : 3 
+
+Size of Y = 5035006------------------------
+

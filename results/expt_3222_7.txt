@@ -1,0 +1,3 @@
+Size of Ytrn : 20885
+Size of Ytst : 30000
+Size of Remain : 49115

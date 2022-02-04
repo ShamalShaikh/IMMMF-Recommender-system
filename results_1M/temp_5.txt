@@ -1,0 +1,5 @@
+
+Run No : 1
+MMMF-CG Training Error:     ZOE = 0.2250		MAE = 0.2336		RMSE = 0.5014
+MMMF-CG Testing Error:		ZOE = 0.5495		MAE = 0.6707		NMAE = 0.1873		RMSE = 0.9744
+Wrong pred in training set with abs>1 : 5209

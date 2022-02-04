@@ -1,0 +1,155 @@
+
+Run No : 1
+1 -> MAE = 1.6466		RMSE = 1.9417
+2 -> MAE = 1.1480		RMSE = 1.3299
+3 -> MAE = 0.5344		RMSE = 0.7818
+4 -> MAE = 0.4008		RMSE = 0.6692
+5 -> MAE = 0.8627		RMSE = 1.0930
+MMMF-CG Training Error:     ZOE = 0.1335		MAE = 0.1366		RMSE = 0.3780
+MMMF-CG Testing Error:		ZOE = 0.5636		MAE = 0.6974		RMSE = 1.0028
+Wrong pred in testing set i.e with abs>0 : 16908
+Rating 1 wrong predictions : 1491
+1 : 367		2 : 756		3 : 341		4 : 27
+Rating 2 wrong predictions : 2888
+1 : 1956		2 : 874		3 : 58		4 : 0
+Rating 3 wrong predictions : 4025
+1 : 3713		2 : 312		3 : 0		4 : 0
+Rating 4 wrong predictions : 3853
+1 : 3660		2 : 170		3 : 23		4 : 0
+Rating 5 wrong predictions : 4651
+1 : 3761		2 : 819		3 : 54		4 : 17
+Rating 1 : 3 / 10908 -- 0.0275 -- 3 added
+Noise 1 : 0 
+Rating 2 : 66 / 63763 -- 0.1035 -- 66 added
+Noise 2 : 0 
+Rating 3 : 1308 / 624707 -- 0.2094 -- 368 added
+Noise 3 : 0 
+Rating 4 : 1400 / 706602 -- 0.1981 -- 292 added
+Noise 4 : 0 
+Rating 5 : 60 / 80146 -- 0.0749 -- 60 added
+Noise 5 : 0 
+Conf : 789 
+
+Run No : 2
+1 -> MAE = 1.6466		RMSE = 1.9352
+2 -> MAE = 1.1454		RMSE = 1.3262
+3 -> MAE = 0.5297		RMSE = 0.7765
+4 -> MAE = 0.4000		RMSE = 0.6682
+5 -> MAE = 0.8679		RMSE = 1.0968
+MMMF-CG Training Error:     ZOE = 0.1303		MAE = 0.1336		RMSE = 0.3747
+MMMF-CG Testing Error:		ZOE = 0.5635		MAE = 0.6967		RMSE = 1.0010
+Wrong pred in testing set i.e with abs>0 : 16905
+Rating 1 wrong predictions : 1500
+1 : 376		2 : 760		3 : 342		4 : 22
+Rating 2 wrong predictions : 2884
+1 : 1950		2 : 883		3 : 51		4 : 0
+Rating 3 wrong predictions : 4002
+1 : 3705		2 : 297		3 : 0		4 : 0
+Rating 4 wrong predictions : 3847
+1 : 3655		2 : 170		3 : 22		4 : 0
+Rating 5 wrong predictions : 4672
+1 : 3767		2 : 835		3 : 54		4 : 16
+Rating 1 : 1 / 10042 -- 0.0100 -- 1 added
+Noise 1 : 0 
+Rating 2 : 82 / 63391 -- 0.1294 -- 82 added
+Noise 2 : 0 
+Rating 3 : 1306 / 625529 -- 0.2088 -- 365 added
+Noise 3 : 0 
+Rating 4 : 1480 / 707489 -- 0.2092 -- 292 added
+Noise 4 : 0 
+Rating 5 : 1 / 78886 -- 0.0013 -- 1 added
+Noise 5 : 0 
+Conf : 741 
+
+Run No : 3
+1 -> MAE = 1.6499		RMSE = 1.9355
+2 -> MAE = 1.1427		RMSE = 1.3238
+3 -> MAE = 0.5274		RMSE = 0.7748
+4 -> MAE = 0.3990		RMSE = 0.6667
+5 -> MAE = 0.8734		RMSE = 1.1008
+MMMF-CG Training Error:     ZOE = 0.1315		MAE = 0.1348		RMSE = 0.3766
+MMMF-CG Testing Error:		ZOE = 0.5640		MAE = 0.6969		RMSE = 1.0010
+Wrong pred in testing set i.e with abs>0 : 16920
+Rating 1 wrong predictions : 1506
+1 : 379		2 : 767		3 : 337		4 : 23
+Rating 2 wrong predictions : 2881
+1 : 1953		2 : 877		3 : 51		4 : 0
+Rating 3 wrong predictions : 3984
+1 : 3688		2 : 296		3 : 0		4 : 0
+Rating 4 wrong predictions : 3843
+1 : 3658		2 : 162		3 : 23		4 : 0
+Rating 5 wrong predictions : 4706
+1 : 3806		2 : 825		3 : 57		4 : 18
+Rating 1 : 0 / 9135 -- 0.0000 -- 0 added
+Noise 1 : 0 
+Rating 2 : 80 / 65234 -- 0.1226 -- 80 added
+Noise 2 : 0 
+Rating 3 : 1252 / 626246 -- 0.1999 -- 362 added
+Noise 3 : 0 
+Rating 4 : 1473 / 706568 -- 0.2085 -- 291 added
+Noise 4 : 0 
+Rating 5 : 0 / 77413 -- 0.0000 -- 0 added
+Noise 5 : 0 
+Conf : 733 
+
+Run No : 4
+1 -> MAE = 1.6482		RMSE = 1.9331
+2 -> MAE = 1.1415		RMSE = 1.3236
+3 -> MAE = 0.5276		RMSE = 0.7745
+4 -> MAE = 0.4017		RMSE = 0.6687
+5 -> MAE = 0.8734		RMSE = 1.0997
+MMMF-CG Training Error:     ZOE = 0.1320		MAE = 0.1354		RMSE = 0.3774
+MMMF-CG Testing Error:		ZOE = 0.5650		MAE = 0.6976		RMSE = 1.0008
+Wrong pred in testing set i.e with abs>0 : 16951
+Rating 1 wrong predictions : 1508
+1 : 384		2 : 766		3 : 335		4 : 23
+Rating 2 wrong predictions : 2876
+1 : 1947		2 : 878		3 : 51		4 : 0
+Rating 3 wrong predictions : 3989
+1 : 3696		2 : 293		3 : 0		4 : 0
+Rating 4 wrong predictions : 3870
+1 : 3685		2 : 162		3 : 23		4 : 0
+Rating 5 wrong predictions : 4708
+1 : 3806		2 : 829		3 : 57		4 : 16
+Rating 1 : 0 / 8654 -- 0.0000 -- 0 added
+Noise 1 : 0 
+Rating 2 : 73 / 65449 -- 0.1115 -- 73 added
+Noise 2 : 0 
+Rating 3 : 1224 / 629194 -- 0.1945 -- 360 added
+Noise 3 : 0 
+Rating 4 : 1422 / 704011 -- 0.2020 -- 291 added
+Noise 4 : 0 
+Rating 5 : 0 / 76555 -- 0.0000 -- 0 added
+Noise 5 : 0 
+Conf : 724 
+
+Run No : 5
+1 -> MAE = 1.6499		RMSE = 1.9330
+2 -> MAE = 1.1412		RMSE = 1.3230
+3 -> MAE = 0.5250		RMSE = 0.7720
+4 -> MAE = 0.4024		RMSE = 0.6688
+5 -> MAE = 0.8745		RMSE = 1.1006
+MMMF-CG Training Error:     ZOE = 0.1324		MAE = 0.1360		RMSE = 0.3785
+MMMF-CG Testing Error:		ZOE = 0.5651		MAE = 0.6975		RMSE = 1.0004
+Wrong pred in testing set i.e with abs>0 : 16954
+Rating 1 wrong predictions : 1512
+1 : 388		2 : 767		3 : 334		4 : 23
+Rating 2 wrong predictions : 2877
+1 : 1950		2 : 876		3 : 51		4 : 0
+Rating 3 wrong predictions : 3973
+1 : 3685		2 : 288		3 : 0		4 : 0
+Rating 4 wrong predictions : 3881
+1 : 3699		2 : 159		3 : 23		4 : 0
+Rating 5 wrong predictions : 4711
+1 : 3804		2 : 835		3 : 56		4 : 16
+Rating 1 : 1 / 8195 -- 0.0122 -- 1 added
+Noise 1 : 0 
+Rating 2 : 71 / 65342 -- 0.1087 -- 71 added
+Noise 2 : 0 
+Rating 3 : 1189 / 630332 -- 0.1886 -- 357 added
+Noise 3 : 0 
+Rating 4 : 1537 / 703521 -- 0.2185 -- 290 added
+Noise 4 : 0 
+Rating 5 : 0 / 75749 -- 0.0000 -- 0 added
+Noise 5 : 0 
+Conf : 719 

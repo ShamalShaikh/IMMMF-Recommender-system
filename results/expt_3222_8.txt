@@ -1,0 +1,34 @@
+Size of Ytrn : 21530
+Size of Ytst : 30000
+Size of Remain : 48470
+
+Run No : 1
+1 -> MAE = 1.0471		RMSE = 1.4346
+2 -> MAE = 0.7932		RMSE = 1.1032
+3 -> MAE = 0.6289		RMSE = 0.8920
+4 -> MAE = 0.8149		RMSE = 1.1142
+5 -> MAE = 1.2555		RMSE = 1.6089
+MMMF-CG Training Error:     ZOE = 0.2523		MAE = 0.2745		RMSE = 0.5679
+MMMF-CG Testing Error:		ZOE = 0.6322		MAE = 0.8702		RMSE = 1.2062
+Wrong pred in testing set i.e with abs>0 : 18965
+Rating 1 wrong predictions : 1177
+1 : 635		2 : 402		3 : 110		4 : 30
+Rating 2 wrong predictions : 2123
+1 : 1571		2 : 458		3 : 94		4 : 0
+Rating 3 wrong predictions : 4390
+1 : 3719		2 : 671		3 : 0		4 : 0
+Rating 4 wrong predictions : 6457
+1 : 4818		2 : 1363		3 : 276		4 : 0
+Rating 5 wrong predictions : 4818
+1 : 2524		2 : 1546		3 : 593		4 : 155
+Rating 1 : 1744 / 93081 -- 1.8736 -- 20 added
+Noise 1 : 0 
+Rating 2 : 3924 / 328883 -- 1.1931 -- 20 added
+Noise 2 : 0 
+Rating 3 : 1018 / 565688 -- 0.1800 -- 20 added
+Noise 3 : 0 
+Rating 4 : 1186 / 388534 -- 0.3052 -- 20 added
+Noise 4 : 0 
+Rating 5 : 5228 / 158410 -- 3.3003 -- 20 added
+Noise 5 : 0 
+Conf : 100 

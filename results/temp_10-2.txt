@@ -1,0 +1,46 @@
+Iter: = 10 	 Obj: = 113267.5376 
+Iter: = 20 	 Obj: = 66923.8664 
+Iter: = 30 	 Obj: = 60798.6979 
+Iter: = 40 	 Obj: = 59938.1814 
+Iter: = 50 	 Obj: = 59731.2296 
+Iter: = 60 	 Obj: = 59617.4120 
+
+Run No : 1
+MMMF-CG Training Error:     ZOE = 0.3886		MAE = 0.4282		RMSE = 0.7166
+MMMF-CG Testing Error:		ZOE = 0.5584		MAE = 0.6878		NMAE = 0.1952		RMSE = 0.9953
+Wrong pred in training set with abs>1 : 2567
+Rating 1 : 7132 / 9721 -- 73.3669 -- 1427 added
+Noise 1 : 3 
+Rating 2 : 7131 / 53192 -- 13.4062 -- 571 added
+Noise 2 : 3 
+Rating 3 : 22180 / 564238 -- 3.9310 -- 222 added
+Noise 3 : 8 
+Rating 4 : 43570 / 780025 -- 5.5857 -- 436 added
+Noise 4 : 6 
+Rating 5 : 62206 / 78950 -- 78.7916 -- 1867 added
+Noise 5 : 15 
+Conf : 4523 
+Noise : 35 
+
+Size of Y = 74488------------------------
+
+
+Run No : 2
+MMMF-CG Training Error:     ZOE = 0.3684		MAE = 0.4100		RMSE = 0.7089
+MMMF-CG Testing Error:		ZOE = 0.5594		MAE = 0.6906		NMAE = 0.1960		RMSE = 1.0003
+Wrong pred in training set with abs>1 : 2776
+Rating 1 : 10901 / 12511 -- 87.1313 -- 2181 added
+Noise 1 : 3 
+Rating 2 : 9075 / 56226 -- 16.1402 -- 726 added
+Noise 2 : 3 
+Rating 3 : 22373 / 562015 -- 3.9809 -- 224 added
+Noise 3 : 7 
+Rating 4 : 46082 / 766588 -- 6.0113 -- 461 added
+Noise 4 : 7 
+Rating 5 : 74539 / 84298 -- 88.4232 -- 2237 added
+Noise 5 : 12 
+Conf : 5829 
+Noise : 32 
+
+Size of Y = 80285------------------------
+
