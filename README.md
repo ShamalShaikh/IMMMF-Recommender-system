@@ -44,7 +44,7 @@ Why Matrix Factorization?
 What is Maximum Margin MF?
 ![image](https://user-images.githubusercontent.com/58035908/152574218-92b1f2b3-8724-49db-95c1-7a7dbcf15948.png)
 
-![image](https://machinelearningjourney.com/wp-content/uploads/2020/01/Linear3D.gif)
+![Alt Text](https://machinelearningjourney.com/wp-content/uploads/2020/01/Linear3D.gif)
 
 
 
