@@ -20,12 +20,12 @@ Ratings are extracted from the dataset, and it is used to build a “model” to
 **Motivation**
 The proposed method draws motivation from research on multi-class classification.
 The approach is used to decompose a multiclass problem into multiple, independently trained, binary classification problems and to combine them appropriately so as to form a multiclass classifier.
-![image](https://user-images.githubusercontent.com/58035908/152573708-f8a87687-c2a2-4d44-94b9-3eaa09a23458.png)
+
 
 Using the proposed Hierarchical Maximum Margin Matrix Factorization (HMMMF) method to:
 Elucidate the matrix completion problem by overcoming the challenges of sparse data.
 Handle the noise present in the training data.
-![image](https://user-images.githubusercontent.com/58035908/152573761-a13c7782-dc03-4c31-9750-4f04a9b47863.png)
+
 
 Example:
 ![image](https://user-images.githubusercontent.com/58035908/152573859-65dcfb6d-efc5-4e53-8156-dda051acba9f.png)
@@ -44,7 +44,8 @@ Why Matrix Factorization?
 What is Maximum Margin MF?
 ![image](https://user-images.githubusercontent.com/58035908/152574218-92b1f2b3-8724-49db-95c1-7a7dbcf15948.png)
 
-![image](https://user-images.githubusercontent.com/58035908/152574247-68d7007f-c756-4e2d-9a89-d1d24de19d05.png)
+![image](https://machinelearningjourney.com/wp-content/uploads/2020/01/Linear3D.gif)
+
 
 
 
