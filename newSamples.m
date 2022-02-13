@@ -3,14 +3,15 @@ function [Ynew] = newSamples(iter, Y, Ytst, YPred, YPredPrev, XY, theta, par, al
 %   Detailed explanation goes here
 [n,m] = size(Y);
 
-S1 = (Y==0);
-S2 = (Ytst ~= 0);
-S = S1-S2;
+% S1 = (Y==0);
+S = (Y==0);
+% S2 = (Ytst ~= 0);
+% S = S1-S2;
 N = YPred .* S; % contains all new predictions excluding Ytst
-Yt = YPred .* (Ytst~=0); % contains all the new predictions in Ytst
-YPrev = YPredPrev .* (Yt>0);
+% Yt = YPred .* (Ytst~=0); % contains all the new predictions in Ytst
+% YPrev = YPredPrev .* (Yt>0);
 
-[Y, conf, noise] = confi(Y, YPred, N, XY, theta, par, 0.45, 0.00, f1); 
+[Y, conf, noise] = confi(Y, YPred, N, XY, theta, par, 0.45, 0.40, f1); 
 
 %{
 wei = wei + (Y ~= Yt);
@@ -30,7 +31,7 @@ end
 a=length(find(sparse(conf)));
 b=length(find(sparse(noise)));
 fprintf(f1,'Conf : %d \n', a);
-%fprintf(f1,'Noise : %d \n', b);
+fprintf(f1,'Noise : %d \n', b);
 Ynew = Y .* (noise ~= 1) + (conf.*YPred) ;
 Ynew = sparse(Ynew);
 
