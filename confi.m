@@ -19,19 +19,19 @@ function [Y, conf, noise] = confi(Y, YPred, N, XY, theta, par, dist_mar_percent,
     for k=1:l
         tmp = abs(theta(:,k+1) - theta(:,k));
         if k==1
-            M(:,k) = 0.2 .* tmp;
+            M(:,k) = 0.3 .* tmp;    %send as param - very narrow
 %               M(:,k) = 0.5 .* tmp;
         elseif k==2
-            M(:,k) = 0.3 .* tmp;
+            M(:,k) = 0.49 .* tmp;
 %               M(:,k) = 0.45 .* tmp;
         elseif k==3
-            M(:,k) = 0.4 .* tmp;
+            M(:,k) = 0.45 .* tmp;
 %               M(:,k) = 0.45 .* tmp;
         elseif k==4
-            M(:,k) = 0.499 .* tmp;
+            M(:,k) = 0.499999999 .* tmp;
 %               M(:,k) = 0.45 .* tmp;
         else
-            M(:,k) = 0.45 .* tmp; % Predicted values have to clear this distance from margins
+            M(:,k) = 0.49 .* tmp; % Predicted values have to clear this distance from margins
         end
         Noise_M(:,k) = noise_mar_percent .* tmp; % gen 10% distance from margins
     end

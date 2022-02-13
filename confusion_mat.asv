@@ -1,0 +1,15 @@
+function confusion_mat(Y, Ytst, f)
+        
+    YtstPred = Y .* (Ytst ~= 0);
+    fprintf(1, "Confusion Matrix: %d\n", length(find(sparse(abs(YtstPred-Ytst) > 0))));
+    
+    fprintf(fs, "\t 1 \t 2 \t 3 \t 4 \t 5 \n");
+
+    for r = 1:L
+        
+    end
+
+
+    fprintf(fs,'\n\nMMMF-CG Training Error:     ZOE = %.4f\t\tMAE = %.4f\t\tRMSE = %.4f',...
+    ResultTrnMMMFAvg(1,1),ResultTrnMMMFAvg(2,1),ResultTrnMMMFAvg(3,1));
+end
