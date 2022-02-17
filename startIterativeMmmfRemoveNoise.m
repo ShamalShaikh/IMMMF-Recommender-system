@@ -19,10 +19,10 @@ lambdaMMMF = regvals(21);
 randPerFill = 1;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-maxMMMFIter       = 1;
-marginPerFromBound = [10, 20, 20, 20, 20,20, 20, 20, 20, 20]; %at 50 left and right boundary will be same
+maxMMMFIter       = 5;
+marginPerFromBound = [10, 10, 10, 10, 10,20, 20, 20, 20, 20]; %at 50 left and right boundary will be same
 
-expMarginPerForCenter = [49.8, 49.8, 49.8, 49.2, 49.2, 49.2, 49.2, 49.2, 49.2, 49.2]; %at 50 left and right boundary will be same
+expMarginPerForCenter = [49.8, 49.8, 49.8, 49.8, 49.8, 49.2, 49.2, 49.2, 49.2, 49.2]; %at 50 left and right boundary will be same
 
 YperIter = cell(1,maxMMMFIter);
 
@@ -39,8 +39,10 @@ ResultIterTstMMMF  = zeros(ttlEvaluationMetrices,nRun,maxMMMFIter);
 filename = strcat( 'Result/resultFinal_equal.txt');
 fs = fopen(filename,'a');
 
-filename = strcat( 'results/confusion_mat_equal_6.txt');
+filename = strcat( 'results/confusion_mat_equal_15.txt');
 f1 = fopen(filename,'a');
+
+fprintf(f1,'Using only the confused element as noise in conf<=0.9 with impute data\n');
 
 for runNo = 1:nRun
     %% Data Generation
@@ -87,25 +89,27 @@ for runNo = 1:nRun
 %         confusion_mat(yMMMF,Ytst, L, fs);
 
 %       Removes Noise - values in the 20 range from the margin
-        [Yiter] = refineData(U*V', mmmfTheta, marginPerFromBound(iter));
+%         [Yiter] = refineData(U*V', mmmfTheta, marginPerFromBound(iter));
         
-        confusion_mat(Yiter,Ytrn,L,f1, 'Ratings before removing noise vs Train set');
+%         confusion_mat(Yiter,Ytrn,L,f1, 'Ratings before removing noise vs Train set');
         
 %         ratings = noisy(Yiter,Ytrn,L);
 
 %         Ytrn = Yiter.*((YperIter{1,iter}==Ytrn) & (YperIter{1,iter}~=0)); 
 
-        Ytrn = removeNoise(Yiter,Ytrn,L);
+%         Ytrn = removeNoise(Yiter,Ytrn,L);
 
-        confusion_mat(Yiter,Ytrn,L,f1, 'Ratings after removing noise vs Train set');
+%         confusion_mat(Yiter,Ytrn,L,f1, 'Ratings after removing noise vs Train set');
         
         [Yimpute] = refineData(U*V',mmmfTheta, expMarginPerForCenter(iter));               
+        
+        
         Ytrn( Ytrn==0)     = Yimpute(Ytrn==0);
         
 
         
         confusion_mat(Yimpute,Ytrn,L,f1, 'Ratings after imputing top ranked data vs Train set');
-        confusion_mat(Ytrn,Ytst, L, f1, 'New Training set vs Testing set');
+%         confusion_mat(Ytrn,Ytst, L, f1, 'New Training set vs Testing set');
 
         %[idx_rand] = select0Idx(Ytrn, Yiter, randPerFill);        
         %Ytrn(idx_rand) = Yiter(idx_rand);
