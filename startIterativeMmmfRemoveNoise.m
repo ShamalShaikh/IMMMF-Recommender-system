@@ -18,9 +18,10 @@ lambdaIterMMMF = [16.5, 16.5, 16.5, 16.5, 16.5];
 lambdaMMMF = regvals(21);
 randPerFill = 1;
 rank = 10;
+IterAdd = 100;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-maxMMMFIter       = 2;
+maxMMMFIter       = 5;
 marginPerFromBound = [10, 10, 10, 10, 10, 20, 20, 20, 20, 20]; %at 50 left and right boundary will be same
 
 expMarginPerForCenter = [49.8, 49.8, 49.8, 48.9, 49.8, 49.2, 49.2, 49.2, 49.2, 49.2]; %at 50 left and right boundary will be same
@@ -40,10 +41,10 @@ ResultIterTstMMMF  = zeros(ttlEvaluationMetrices,nRun,maxMMMFIter);
 filename = strcat( 'Result/resultFinal_equal.txt');
 fs = fopen(filename,'a');
 
-filename = strcat( 'results/confusion_mat_equal_20.txt');
-f1 = fopen(filename,'a');
+filename = strcat( 'results/testingNewAdd_4.txt');
+f1 = fopen(filename,'w');
 
-fprintf(f1,'Imputing Data\n');
+fprintf(f1,'imputing 100 best points based on confi ratios\n');
 
 for runNo = 1:nRun
     %% Data Generation
@@ -54,8 +55,8 @@ for runNo = 1:nRun
     %% data pre-processing
     Y(sum(Y~=0,2)==0,:) = []; %code to delete user who has not given any rating
     Y = sparse(Y);
-    [Ytrn,Ytst] = equal_divideData(Y,tstPer);
-    %[Ytrn,Ytst] = divideDataPMMMF(Y,tstPer);
+%     [Ytrn,Ytst] = equal_divideData(Y,tstPer);
+    [Ytrn,Ytst] = divideDataPMMMF(Y,tstPer);
     %[Ytrn, Ytst, ~, ~] = allBut1Division(Y, []);
     [n,m] = size(Ytrn);
     %fprintf(fs,'\nrows left: %d\t column left:  %d\n',n,m);
@@ -85,35 +86,51 @@ for runNo = 1:nRun
         fprintf(f1,'\nMMMF-CG Testing Error:\t\tZOE = %.4f\t\tMAE = %.4f\t\tRMSE = %.4f',...
             ResultRefineTstMMMF(1,runNo,iter),ResultRefineTstMMMF(2,runNo,iter),ResultRefineTstMMMF(3,runNo,iter));
         
-        confusion_mat(yMMMF,Ytrn,L,f1, 'Predicted Ratings vs Training set');
-        confusion_mat(yMMMF,Ytst,L,f1, 'Predicted Ratings vs Testing set');
+        
+
+        confusion_mat(Ytrn,yMMMF,L,f1, 'Training set vs Predicted Ratings');
+        confusion_mat(Ytst,yMMMF,L,f1, 'Testing set vs Predicted Ratings');
 %         confusion_mat(yMMMF,Ytst, L, fs);
 
+%         Count the ratio = (no. of (r-r) rating / total no. of r in train set)
+        ratios = CalculateConfi(Ytrn,yMMMF,L);
+
 %         Remove points which are at max distance from the rating region.
-        Yiter = removeDistNoise(U*V',Ytrn,mmmfTheta, rank);
+%         Yiter = removeDistNoise(U*V',Ytrn,mmmfTheta, rank);
         
 %         confusion_mat(Yiter,Ytrn,L,f1, 'Ratings before removing noise vs Train set');
-        
-        Ytrn = Yiter .* (Ytrn~=0);
-        
-        confusion_mat(yMMMF,Ytrn,L,f1, 'Predicted Ratings vs Training set after removing noise');
 
 %       Removes Noise - values in the 20 range from the margin
 %         [Yiter] = refineData(U*V', mmmfTheta, marginPerFromBound(iter));
-        
-%         confusion_mat(Yiter,Ytrn,L,f1, 'Ratings before removing noise vs Train set');
 
+%         Ytrn = Yiter .* (Ytrn~=0);
 %         Ytrn = Yiter.*((YperIter{1,iter}==Ytrn) & (YperIter{1,iter}~=0)); 
+        
+%         confusion_mat(Ytrn,yMMMF,L,f1, 'Training set after removing noise vs Predicted Ratings');
+
+
+%         confusion_mat(Ytrn,Yiter,L,f1, 'Train set vs Ratings before removing noise');
 
 %         Ytrn = removeNoise(Yiter,Ytrn,L);
 
-%         confusion_mat(Yiter,Ytrn,L,f1, 'Ratings after removing noise vs Train set');
+%         confusion_mat(Ytrn,Yiter,L,f1, 'Train set vs Ratings after removing noise');
+        
         
         [Yimpute] = refineData(U*V',mmmfTheta, expMarginPerForCenter(iter));               
         
-        Ytrn( Ytrn==0)     = Yimpute(Ytrn==0);
         
-        confusion_mat(Yimpute,Ytrn,L,f1, 'Ratings after imputing top ranked data vs Train set');
+        
+        confusion_mat(Ytrn,Yimpute,L,f1, 'Train set vs Yimpute (top ranked data)');
+        confusion_mat(Ytst,Yimpute,L,f1, 'Test set vs Yimpute (top ranked data)');
+        
+
+
+%         Add new data points based on the ratios 
+        Ytrn = AddNewData(Ytrn, Yimpute, ratios,L,IterAdd);
+
+        confusion_mat(Ytrn,Yimpute,L,f1, 'Train set vs Yimpute (top ranked data)');
+%         Ytrn( Ytrn==0)     = Yimpute(Ytrn==0);
+
 %         confusion_mat(Ytrn,Ytst, L, f1, 'New Training set vs Testing set');
 
         %[idx_rand] = select0Idx(Ytrn, Yiter, randPerFill);        
