@@ -1,0 +1,241 @@
+imputing 100 best points based on confi ratios
+
+
+MMMF-CG Training Error:     ZOE = 0.3379		MAE = 0.3658		RMSE = 0.6520
+MMMF-CG Testing Error:		ZOE = 0.5561		MAE = 0.6791		RMSE = 0.9793
+ Training set vs Predicted Ratings 
+Confusion Matrix: 1539689
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	   1646 	   1633 	    939 	    101 	      5 	 	 0.3807
+2 	    149 	   2491 	   4828 	    511 	      9 	 	 0.3118
+3 	     10 	    222 	  13799 	   4884 	     56 	 	 0.7274
+4 	      0 	     20 	   2736 	  20531 	    615 	 	 0.8590
+5 	      0 	      1 	    181 	   6803 	   7970 	 	 0.5329
+
+ Testing set vs Predicted Ratings 
+Confusion Matrix: 1572872
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    349 	    290 	    813 	    316 	     18 	 	 0.1954
+2 	     74 	    375 	   2005 	    888 	     40 	 	 0.1109
+3 	     49 	    312 	   4207 	   3429 	    177 	 	 0.5147
+4 	     26 	    114 	   2770 	   6748 	    614 	 	 0.6569
+5 	     15 	     26 	    716 	   3914 	   1575 	 	 0.2522
+
+ Train set vs Yimpute (top ranked data) 
+Confusion Matrix: 442076
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    879 	     70 	    141 	     33 	      4 	 	 0.7799
+2 	     59 	    138 	    677 	    100 	      7 	 	 0.1407
+3 	      1 	     10 	   2579 	    931 	     27 	 	 0.7269
+4 	      0 	      3 	    179 	   7111 	    175 	 	 0.9522
+5 	      0 	      0 	     15 	   1631 	   3583 	 	 0.6852
+
+ Test set vs Yimpute (top ranked data) 
+Confusion Matrix: 452632
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    253 	     21 	    107 	     81 	      7 	 	 0.5394
+2 	     45 	     26 	    305 	    207 	     16 	 	 0.0434
+3 	     26 	     23 	    685 	    866 	     58 	 	 0.4131
+4 	     15 	      9 	    293 	   2038 	    207 	 	 0.7955
+5 	     12 	      4 	     68 	   1112 	    732 	 	 0.3797
+
+ Train set vs Yimpute (top ranked data) 
+Confusion Matrix: 441978
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    907 	     70 	    141 	     33 	      4 	 	 0.7853
+2 	     59 	    169 	    677 	    100 	      7 	 	 0.1670
+3 	      1 	     10 	   2591 	    931 	     27 	 	 0.7278
+4 	      0 	      3 	    179 	   7117 	    175 	 	 0.9522
+5 	      0 	      0 	     15 	   1631 	   3604 	 	 0.6865
+
+
+MMMF-CG Training Error:     ZOE = 0.3374		MAE = 0.3654		RMSE = 0.6521
+MMMF-CG Testing Error:		ZOE = 0.5566		MAE = 0.6797		RMSE = 0.9799
+ Training set vs Predicted Ratings 
+Confusion Matrix: 1539584
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	   1657 	   1648 	    941 	    101 	      5 	 	 0.3807
+2 	    147 	   2530 	   4824 	    507 	     11 	 	 0.3155
+3 	     12 	    213 	  13828 	   4875 	     55 	 	 0.7284
+4 	      1 	     24 	   2732 	  20538 	    613 	 	 0.8590
+5 	      0 	      3 	    183 	   6801 	   7989 	 	 0.5335
+
+ Testing set vs Predicted Ratings 
+Confusion Matrix: 1572887
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    351 	    283 	    816 	    317 	     19 	 	 0.1965
+2 	     75 	    379 	   2002 	    886 	     40 	 	 0.1121
+3 	     46 	    321 	   4201 	   3421 	    185 	 	 0.5139
+4 	     25 	    111 	   2793 	   6732 	    611 	 	 0.6554
+5 	     15 	     27 	    712 	   3916 	   1576 	 	 0.2523
+
+ Train set vs Yimpute (top ranked data) 
+Confusion Matrix: 445710
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    744 	     76 	    150 	     30 	      4 	 	 0.7410
+2 	     50 	    175 	    706 	     98 	      7 	 	 0.1689
+3 	      2 	     19 	   2515 	    925 	     30 	 	 0.7204
+4 	      1 	      4 	    183 	   7084 	    188 	 	 0.9496
+5 	      0 	      0 	     17 	   1629 	   3610 	 	 0.6868
+
+ Test set vs Yimpute (top ranked data) 
+Confusion Matrix: 456144
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    183 	     23 	    108 	     79 	      8 	 	 0.4564
+2 	     35 	     30 	    303 	    197 	     17 	 	 0.0515
+3 	     21 	     25 	    687 	    835 	     64 	 	 0.4210
+4 	     17 	      9 	    302 	   2035 	    206 	 	 0.7921
+5 	     10 	      7 	     74 	   1112 	    759 	 	 0.3869
+
+ Train set vs Yimpute (top ranked data) 
+Confusion Matrix: 445612
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    772 	     76 	    150 	     30 	      4 	 	 0.7481
+2 	     50 	    206 	    706 	     98 	      7 	 	 0.1931
+3 	      2 	     19 	   2527 	    925 	     30 	 	 0.7214
+4 	      1 	      4 	    183 	   7090 	    188 	 	 0.9496
+5 	      0 	      0 	     17 	   1629 	   3631 	 	 0.6881
+
+
+MMMF-CG Training Error:     ZOE = 0.3371		MAE = 0.3653		RMSE = 0.6522
+MMMF-CG Testing Error:		ZOE = 0.5571		MAE = 0.6800		RMSE = 0.9800
+ Training set vs Predicted Ratings 
+Confusion Matrix: 1539502
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	   1688 	   1648 	    940 	     99 	      5 	 	 0.3854
+2 	    152 	   2552 	   4823 	    513 	     10 	 	 0.3170
+3 	     16 	    219 	  13807 	   4895 	     58 	 	 0.7269
+4 	      2 	     25 	   2716 	  20544 	    627 	 	 0.8591
+5 	      0 	      4 	    185 	   6775 	   8033 	 	 0.5356
+
+ Testing set vs Predicted Ratings 
+Confusion Matrix: 1572900
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    348 	    290 	    814 	    313 	     21 	 	 0.1948
+2 	     77 	    368 	   2011 	    885 	     41 	 	 0.1088
+3 	     50 	    312 	   4212 	   3422 	    178 	 	 0.5153
+4 	     29 	    106 	   2781 	   6730 	    626 	 	 0.6552
+5 	     15 	     23 	    718 	   3922 	   1568 	 	 0.2510
+
+ Train set vs Yimpute (top ranked data) 
+Confusion Matrix: 451502
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    832 	     75 	    146 	     30 	      5 	 	 0.7647
+2 	     55 	    214 	    671 	    105 	      9 	 	 0.2030
+3 	      4 	     21 	   2499 	    936 	     31 	 	 0.7158
+4 	      2 	      6 	    182 	   7106 	    197 	 	 0.9484
+5 	      0 	      0 	     16 	   1653 	   3620 	 	 0.6844
+
+ Test set vs Yimpute (top ranked data) 
+Confusion Matrix: 462105
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    191 	     31 	    105 	     86 	      9 	 	 0.4526
+2 	     35 	     24 	    284 	    197 	     16 	 	 0.0432
+3 	     26 	     28 	    645 	    864 	     65 	 	 0.3962
+4 	     17 	      9 	    294 	   2062 	    211 	 	 0.7952
+5 	     11 	      5 	     69 	   1110 	    746 	 	 0.3843
+
+ Train set vs Yimpute (top ranked data) 
+Confusion Matrix: 451403
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    860 	     75 	    146 	     30 	      5 	 	 0.7706
+2 	     55 	    245 	    671 	    105 	      9 	 	 0.2258
+3 	      4 	     21 	   2512 	    936 	     31 	 	 0.7169
+4 	      2 	      6 	    182 	   7112 	    197 	 	 0.9484
+5 	      0 	      0 	     16 	   1653 	   3641 	 	 0.6857
+
+
+MMMF-CG Training Error:     ZOE = 0.3369		MAE = 0.3650		RMSE = 0.6519
+MMMF-CG Testing Error:		ZOE = 0.5566		MAE = 0.6798		RMSE = 0.9801
+ Training set vs Predicted Ratings 
+Confusion Matrix: 1539421
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	   1715 	   1648 	    945 	     95 	      5 	 	 0.3891
+2 	    148 	   2585 	   4832 	    505 	     11 	 	 0.3199
+3 	     17 	    219 	  13826 	   4887 	     59 	 	 0.7274
+4 	      4 	     26 	   2730 	  20538 	    622 	 	 0.8586
+5 	      0 	      5 	    183 	   6789 	   8041 	 	 0.5354
+
+ Testing set vs Predicted Ratings 
+Confusion Matrix: 1572886
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    350 	    284 	    818 	    314 	     20 	 	 0.1960
+2 	     76 	    376 	   2004 	    886 	     40 	 	 0.1112
+3 	     50 	    304 	   4208 	   3429 	    183 	 	 0.5148
+4 	     27 	    117 	   2778 	   6735 	    615 	 	 0.6557
+5 	     15 	     28 	    701 	   3931 	   1571 	 	 0.2515
+
+ Train set vs Yimpute (top ranked data) 
+Confusion Matrix: 461059
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    966 	     85 	    154 	     33 	      5 	 	 0.7772
+2 	     61 	    262 	    726 	    107 	      9 	 	 0.2249
+3 	      6 	     26 	   2704 	    937 	     31 	 	 0.7300
+4 	      2 	      7 	    198 	   7347 	    199 	 	 0.9476
+5 	      0 	      1 	     16 	   1688 	   3729 	 	 0.6862
+
+ Test set vs Yimpute (top ranked data) 
+Confusion Matrix: 472205
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    262 	     33 	    114 	     86 	      9 	 	 0.5198
+2 	     43 	     35 	    318 	    211 	     18 	 	 0.0560
+3 	     27 	     28 	    703 	    878 	     66 	 	 0.4130
+4 	     18 	     12 	    315 	   2105 	    212 	 	 0.7908
+5 	     12 	      6 	     76 	   1151 	    757 	 	 0.3781
+
+ Train set vs Yimpute (top ranked data) 
+Confusion Matrix: 460959
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    994 	     85 	    154 	     33 	      5 	 	 0.7821
+2 	     61 	    293 	    726 	    107 	      9 	 	 0.2450
+3 	      6 	     26 	   2717 	    937 	     31 	 	 0.7310
+4 	      2 	      7 	    198 	   7354 	    199 	 	 0.9477
+5 	      0 	      1 	     16 	   1688 	   3750 	 	 0.6874
+
+
+MMMF-CG Training Error:     ZOE = 0.3362		MAE = 0.3646		RMSE = 0.6522
+MMMF-CG Testing Error:		ZOE = 0.5568		MAE = 0.6800		RMSE = 0.9799
+ Training set vs Predicted Ratings 
+Confusion Matrix: 1539308
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	   1745 	   1643 	    940 	    102 	      6 	 	 0.3934
+2 	    150 	   2648 	   4793 	    509 	     12 	 	 0.3264
+3 	     17 	    220 	  13838 	   4888 	     58 	 	 0.7275
+4 	      5 	     29 	   2727 	  20542 	    624 	 	 0.8585
+5 	      0 	      5 	    181 	   6808 	   8045 	 	 0.5349
+
+ Testing set vs Predicted Ratings 
+Confusion Matrix: 1572893
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    350 	    287 	    820 	    309 	     20 	 	 0.1960
+2 	     78 	    379 	   2002 	    883 	     40 	 	 0.1121
+3 	     47 	    321 	   4188 	   3438 	    180 	 	 0.5124
+4 	     27 	    119 	   2773 	   6744 	    609 	 	 0.6565
+5 	     15 	     26 	    719 	   3914 	   1572 	 	 0.2517
+
+ Train set vs Yimpute (top ranked data) 
+Confusion Matrix: 453492
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    877 	     82 	    151 	     32 	      5 	 	 0.7646
+2 	     53 	    290 	    704 	    101 	      9 	 	 0.2506
+3 	      8 	     27 	   2574 	    935 	     32 	 	 0.7198
+4 	      4 	      7 	    191 	   7085 	    187 	 	 0.9480
+5 	      0 	      2 	     18 	   1631 	   3669 	 	 0.6897
+
+ Test set vs Yimpute (top ranked data) 
+Confusion Matrix: 464362
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    188 	     34 	    111 	     83 	      9 	 	 0.4424
+2 	     38 	     34 	    300 	    206 	     18 	 	 0.0570
+3 	     23 	     32 	    653 	    845 	     61 	 	 0.4046
+4 	     18 	     11 	    302 	   2026 	    206 	 	 0.7905
+5 	     11 	      6 	     77 	   1119 	    724 	 	 0.3738
+
+ Train set vs Yimpute (top ranked data) 
+Confusion Matrix: 453391
+  	  	 1 	 	 2 	 	 	 3 	 	 	 4 	 	 	 5 	 	 	 ratio
+1 	    905 	     82 	    151 	     32 	      5 	 	 0.7702
+2 	     53 	    321 	    704 	    101 	      9 	 	 0.2702
+3 	      8 	     27 	   2587 	    935 	     32 	 	 0.7208
+4 	      4 	      7 	    191 	   7092 	    187 	 	 0.9480
+5 	      0 	      2 	     18 	   1631 	   3691 	 	 0.6909
