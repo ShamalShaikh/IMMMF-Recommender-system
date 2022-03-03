@@ -25,7 +25,7 @@ ResultTstMMMF  = zeros(ttlEvaluationMetrices,nRun);
 filename = strcat( 'resultFinal.txt');
 fs = fopen(filename,'a');
 
-fn = strcat('results/expt_3222_12.txt');
+fn = strcat('results/expt_4222_3.txt');
 f1 = fopen(fn, 'w');
 
 %% Data Generation

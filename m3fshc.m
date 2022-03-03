@@ -16,7 +16,7 @@
 
 %function [obj,grad,lossobj,regobj] = m3fshc(v,Y,lambda,l,varargin)
 function [obj,grad,lossobj,regobj] = m3fshc(v,parameter)
-  %fn = mfilename;
+  fn = mfilename;
   if nargin < 2
     error('insufficient parameters')
   end
@@ -28,17 +28,15 @@ function [obj,grad,lossobj,regobj] = m3fshc(v,parameter)
   lambda = parameter.lambda;
   l = parameter.l;
   
-  t0 = clock;
+%   t0 = clock;
   [n,m] = size(Y);
-  
-  p = (length(v)-(n.*(l+1)))./(n+m);
-  
+  p = (length(v)-n.*(l-1))./(n+m);
   if p ~= floor(p) | p < 1
     error('dimensions of v and Y don''t match l');
   end
   U = reshape(v(1:n*p),n,p);
   V = reshape(v(n*p+1:n*p+m*p),m,p);
-  theta = reshape(v(n*p+m*p+1:n*p+m*p+n*(l+1)),n,l+1);
+  theta = reshape(v(n*p+m*p+1:n*p+m*p+n*(l-1)),n,l-1);
   clear v;
 
   X = U*V';
@@ -50,11 +48,11 @@ function [obj,grad,lossobj,regobj] = m3fshc(v,parameter)
   %lambda is regularized value that we are passing from weak.m
   dU = lambda.*U; % [n,p]
   dV = lambda.*V; % [m,p]
-  dtheta = zeros(n,l+1); % [n,l+1]
+  dtheta = zeros(n,l-1); % [n,l-1]
   regobj = lambda.*(sum(U(:).^2)+sum(V(:).^2))./2; % [scalar]
   lossobj = 0;
-  for k=1:l+1
-    S = Ygt0-(2 .*(Y > (k-1))); %S is T in the paper
+  for k=1:l-1
+    S = Ygt0-2.*(Y>k); %S is T in the paper
     % Next line is the memory bottleneck
     BZ = (theta(:,k)*ones(1,m)).*S - BX.*S; % [n,m] (sparse)
     lossobj = lossobj + sum(sum(h(BZ)));
