@@ -1,0 +1,160 @@
+Binary HMF - Training for 1 vs {2,3,4and5}
+
+
+MMMF-CG Training Error:     ZOE = 0.7382		MAE = 1.3499		RMSE = 1.7583
+MMMF-CG Testing Error:		ZOE = 0.7543		MAE = 1.3657		RMSE = 1.7608
+
+MMMF-CG Training Error:     ZOE = 0.7380		MAE = 1.3496		RMSE = 1.7582
+MMMF-CG Testing Error:		ZOE = 0.7543		MAE = 1.3654		RMSE = 1.7604
+
+MMMF-CG Training Error:     ZOE = 0.7383		MAE = 1.3501		RMSE = 1.7585
+MMMF-CG Testing Error:		ZOE = 0.7541		MAE = 1.3651		RMSE = 1.7602
+
+MMMF-CG Training Error:     ZOE = 0.7383		MAE = 1.3499		RMSE = 1.7583
+MMMF-CG Testing Error:		ZOE = 0.7543		MAE = 1.3652		RMSE = 1.7603
+
+MMMF-CG Training Error:     ZOE = 0.7379		MAE = 1.3497		RMSE = 1.7584
+MMMF-CG Testing Error:		ZOE = 0.7541		MAE = 1.3651		RMSE = 1.7601
+
+MMMF-CG Training Error:     ZOE = 0.7379		MAE = 1.3491		RMSE = 1.7579
+MMMF-CG Testing Error:		ZOE = 0.7540		MAE = 1.3645		RMSE = 1.7596
+
+MMMF-CG Training Error:     ZOE = 0.7381		MAE = 1.3500		RMSE = 1.7585
+MMMF-CG Testing Error:		ZOE = 0.7545		MAE = 1.3661		RMSE = 1.7611
+
+MMMF-CG Training Error:     ZOE = 0.7388		MAE = 1.3512		RMSE = 1.7593
+MMMF-CG Testing Error:		ZOE = 0.7545		MAE = 1.3667		RMSE = 1.7617
+
+MMMF-CG Training Error:     ZOE = 0.7378		MAE = 1.3494		RMSE = 1.7582
+MMMF-CG Testing Error:		ZOE = 0.7542		MAE = 1.3651		RMSE = 1.7601
+
+MMMF-CG Training Error:     ZOE = 0.7375		MAE = 1.3489		RMSE = 1.7579
+MMMF-CG Testing Error:		ZOE = 0.7539		MAE = 1.3641		RMSE = 1.7594Binary HMF - Training for 1 vs {2,3,4and5}
+
+
+MMMF-CG Training Error:     ZOE = 0.7335		MAE = 1.3407		RMSE = 1.7524
+MMMF-CG Testing Error:		ZOE = 0.7534		MAE = 1.3597		RMSE = 1.7552
+
+MMMF-CG Training Error:     ZOE = 0.7326		MAE = 1.3387		RMSE = 1.7511
+MMMF-CG Testing Error:		ZOE = 0.7525		MAE = 1.3582		RMSE = 1.7546
+
+MMMF-CG Training Error:     ZOE = 0.7327		MAE = 1.3391		RMSE = 1.7513
+MMMF-CG Testing Error:		ZOE = 0.7525		MAE = 1.3584		RMSE = 1.7546
+
+MMMF-CG Training Error:     ZOE = 0.7327		MAE = 1.3388		RMSE = 1.7511
+MMMF-CG Testing Error:		ZOE = 0.7529		MAE = 1.3586		RMSE = 1.7546
+
+MMMF-CG Training Error:     ZOE = 0.7336		MAE = 1.3408		RMSE = 1.7524
+MMMF-CG Testing Error:		ZOE = 0.7533		MAE = 1.3599		RMSE = 1.7557
+
+MMMF-CG Training Error:     ZOE = 0.7328		MAE = 1.3396		RMSE = 1.7518
+MMMF-CG Testing Error:		ZOE = 0.7530		MAE = 1.3593		RMSE = 1.7553
+
+MMMF-CG Training Error:     ZOE = 0.7332		MAE = 1.3403		RMSE = 1.7522
+MMMF-CG Testing Error:		ZOE = 0.7532		MAE = 1.3596		RMSE = 1.7554
+
+MMMF-CG Training Error:     ZOE = 0.7335		MAE = 1.3406		RMSE = 1.7523
+MMMF-CG Testing Error:		ZOE = 0.7534		MAE = 1.3596		RMSE = 1.7552
+
+MMMF-CG Training Error:     ZOE = 0.7332		MAE = 1.3402		RMSE = 1.7520
+MMMF-CG Testing Error:		ZOE = 0.7528		MAE = 1.3592		RMSE = 1.7553
+
+MMMF-CG Training Error:     ZOE = 0.7334		MAE = 1.3407		RMSE = 1.7524
+MMMF-CG Testing Error:		ZOE = 0.7535		MAE = 1.3605		RMSE = 1.7562Binary HMF - Training for 1 vs {2,3,4and5}
+
+
+MMMF-CG Training Error:     ZOE = 0.7339		MAE = 1.3389		RMSE = 1.7500
+MMMF-CG Testing Error:		ZOE = 0.7515		MAE = 1.3567		RMSE = 1.7537
+
+MMMF-CG Training Error:     ZOE = 0.7341		MAE = 1.3393		RMSE = 1.7503
+MMMF-CG Testing Error:		ZOE = 0.7515		MAE = 1.3569		RMSE = 1.7540
+
+MMMF-CG Training Error:     ZOE = 0.7344		MAE = 1.3401		RMSE = 1.7510
+MMMF-CG Testing Error:		ZOE = 0.7519		MAE = 1.3576		RMSE = 1.7542
+
+MMMF-CG Training Error:     ZOE = 0.7338		MAE = 1.3383		RMSE = 1.7495
+MMMF-CG Testing Error:		ZOE = 0.7513		MAE = 1.3569		RMSE = 1.7544
+
+MMMF-CG Training Error:     ZOE = 0.7332		MAE = 1.3377		RMSE = 1.7493
+MMMF-CG Testing Error:		ZOE = 0.7510		MAE = 1.3560		RMSE = 1.7533
+
+MMMF-CG Training Error:     ZOE = 0.7341		MAE = 1.3398		RMSE = 1.7509
+MMMF-CG Testing Error:		ZOE = 0.7518		MAE = 1.3578		RMSE = 1.7544
+
+MMMF-CG Training Error:     ZOE = 0.7331		MAE = 1.3378		RMSE = 1.7495
+MMMF-CG Testing Error:		ZOE = 0.7509		MAE = 1.3552		RMSE = 1.7524
+
+MMMF-CG Training Error:     ZOE = 0.7340		MAE = 1.3395		RMSE = 1.7506
+MMMF-CG Testing Error:		ZOE = 0.7519		MAE = 1.3581		RMSE = 1.7548
+
+MMMF-CG Training Error:     ZOE = 0.7342		MAE = 1.3398		RMSE = 1.7507
+MMMF-CG Testing Error:		ZOE = 0.7518		MAE = 1.3575		RMSE = 1.7543
+
+MMMF-CG Training Error:     ZOE = 0.7343		MAE = 1.3399		RMSE = 1.7507
+MMMF-CG Testing Error:		ZOE = 0.7517		MAE = 1.3574		RMSE = 1.7541Binary HMF - Training for 1 vs {2,3,4and5}
+
+
+MMMF-CG Training Error:     ZOE = 0.0589		MAE = 0.2039		RMSE = 0.8523
+MMMF-CG Testing Error:		ZOE = 0.6824		MAE = 1.1158		RMSE = 1.5250
+
+MMMF-CG Training Error:     ZOE = 0.0884		MAE = 0.2952		RMSE = 1.0108
+MMMF-CG Testing Error:		ZOE = 0.6829		MAE = 1.1283		RMSE = 1.5416
+
+MMMF-CG Training Error:     ZOE = 0.2278		MAE = 0.6270		RMSE = 1.3810
+MMMF-CG Testing Error:		ZOE = 0.6931		MAE = 1.1828		RMSE = 1.6041
+
+MMMF-CG Training Error:     ZOE = 0.1245		MAE = 0.3968		RMSE = 1.1531
+MMMF-CG Testing Error:		ZOE = 0.6862		MAE = 1.1445		RMSE = 1.5607
+
+MMMF-CG Training Error:     ZOE = 0.0589		MAE = 0.2037		RMSE = 0.8517
+MMMF-CG Testing Error:		ZOE = 0.6813		MAE = 1.1136		RMSE = 1.5226
+
+MMMF-CG Training Error:     ZOE = 0.0883		MAE = 0.2949		RMSE = 1.0106
+MMMF-CG Testing Error:		ZOE = 0.6820		MAE = 1.1278		RMSE = 1.5421
+
+MMMF-CG Training Error:     ZOE = 0.2282		MAE = 0.6279		RMSE = 1.3817
+MMMF-CG Testing Error:		ZOE = 0.6934		MAE = 1.1831		RMSE = 1.6043
+
+MMMF-CG Training Error:     ZOE = 0.1246		MAE = 0.3973		RMSE = 1.1539
+MMMF-CG Testing Error:		ZOE = 0.6857		MAE = 1.1439		RMSE = 1.5597
+
+MMMF-CG Training Error:     ZOE = 0.0590		MAE = 0.2041		RMSE = 0.8526
+MMMF-CG Testing Error:		ZOE = 0.6809		MAE = 1.1153		RMSE = 1.5258
+
+MMMF-CG Training Error:     ZOE = 0.0884		MAE = 0.2952		RMSE = 1.0110
+MMMF-CG Testing Error:		ZOE = 0.6835		MAE = 1.1286		RMSE = 1.5410Binary HMF - Training for 1 vs {2,3,4and5}
+
+
+MMMF-CG Training Error:     ZOE = 0.1381		MAE = 0.3757		RMSE = 1.0567
+MMMF-CG Testing Error:		ZOE = 0.6880		MAE = 1.1533		RMSE = 1.5713Binary HMF - Training for 1 vs {2,3,4and5}
+
+
+MMMF-CG Training Error:     ZOE = 0.1390		MAE = 0.3809		RMSE = 1.0664
+MMMF-CG Testing Error:		ZOE = 0.6878		MAE = 1.1514		RMSE = 1.5683
+
+MMMF-CG Training Error:     ZOE = 0.1387		MAE = 0.3802		RMSE = 1.0657
+MMMF-CG Testing Error:		ZOE = 0.6882		MAE = 1.1520		RMSE = 1.5686
+
+MMMF-CG Training Error:     ZOE = 0.1384		MAE = 0.3794		RMSE = 1.0644
+MMMF-CG Testing Error:		ZOE = 0.6871		MAE = 1.1517		RMSE = 1.5698
+
+MMMF-CG Training Error:     ZOE = 0.1387		MAE = 0.3804		RMSE = 1.0660
+MMMF-CG Testing Error:		ZOE = 0.6870		MAE = 1.1515		RMSE = 1.5697
+
+MMMF-CG Training Error:     ZOE = 0.1389		MAE = 0.3808		RMSE = 1.0667
+MMMF-CG Testing Error:		ZOE = 0.6876		MAE = 1.1509		RMSE = 1.5681
+
+MMMF-CG Training Error:     ZOE = 0.1388		MAE = 0.3808		RMSE = 1.0668
+MMMF-CG Testing Error:		ZOE = 0.6877		MAE = 1.1511		RMSE = 1.5680
+
+MMMF-CG Training Error:     ZOE = 0.1388		MAE = 0.3806		RMSE = 1.0665
+MMMF-CG Testing Error:		ZOE = 0.6875		MAE = 1.1513		RMSE = 1.5689
+
+MMMF-CG Training Error:     ZOE = 0.1389		MAE = 0.3806		RMSE = 1.0660
+MMMF-CG Testing Error:		ZOE = 0.6879		MAE = 1.1538		RMSE = 1.5712
+
+MMMF-CG Training Error:     ZOE = 0.1387		MAE = 0.3803		RMSE = 1.0659
+MMMF-CG Testing Error:		ZOE = 0.6874		MAE = 1.1501		RMSE = 1.5675
+
+MMMF-CG Training Error:     ZOE = 0.1392		MAE = 0.3814		RMSE = 1.0674
+MMMF-CG Testing Error:		ZOE = 0.6876		MAE = 1.1524		RMSE = 1.5701
